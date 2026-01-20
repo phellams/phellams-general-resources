@@ -3,7 +3,7 @@
    viewBox="0 0 1000 25"
    version="1.1"
    id="svg1"
-   sodipodi:docname="skewed-rectangles-divided.svg"
+   sodipodi:docname="skewed-rectangles-divided-grayscale.svg"
    width="1000"
    height="25"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
@@ -18,15 +18,15 @@
        id="linearGradient1"
        inkscape:collect="always">
       <stop
-         style="stop-color:#e2522f;stop-opacity:1;"
+         style="stop-color:#000000;stop-opacity:1;"
          offset="0"
          id="stop1" />
       <stop
-         style="stop-color:#e2ca2f;stop-opacity:0.49803922;"
+         style="stop-color:#000000;stop-opacity:0.49803922;"
          offset="0.1712963"
          id="stop3" />
       <stop
-         style="stop-color:#2fe2c3;stop-opacity:0;"
+         style="stop-color:#000000;stop-opacity:0;"
          offset="0.3425926"
          id="stop2" />
     </linearGradient>
