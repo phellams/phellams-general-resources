@@ -1,0 +1,418 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#0a0e1a"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="24" fill="#64748b" text-anchor="middle" font-weight="600">FluxEncoder - Production-Grade FFmpeg TUI Wrapper</text>
+  <text x="600" y="65" font-family="Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Service-Oriented Console Architecture • .NET 10 NativeAOT • High-Performance Transcoding</text>
+  
+  <!-- PRIMARY LOGO -->
+  <g id="primary-logo">
+    <text x="100" y="115" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">PRIMARY LOGO</text>
+    
+    <g transform="translate(180, 160)">
+      <!-- FluxEncoder icon: Media flow through encoder -->
+      <g id="flux-icon">
+        <!-- Input wave (media source) -->
+        <path d="M 10 50 Q 20 30 30 50 Q 40 70 50 50" fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round">
+          <animate attributeName="d" 
+                   values="M 10 50 Q 20 30 30 50 Q 40 70 50 50;
+                           M 10 50 Q 20 70 30 50 Q 40 30 50 50;
+                           M 10 50 Q 20 30 30 50 Q 40 70 50 50" 
+                   dur="2s" 
+                   repeatCount="indefinite"/>
+        </path>
+        
+        <!-- Encoder box (central processing) -->
+        <rect x="50" y="30" width="40" height="40" rx="6" fill="url(#encoderGrad)" stroke="#f97316" stroke-width="2.5"/>
+        
+        <!-- FFmpeg "ff" symbol inside -->
+        <text x="70" y="56" font-family="Consolas, monospace" font-size="20" fill="#fbbf24" text-anchor="middle" font-weight="bold">ff</text>
+        
+        <!-- Processing indicators (animated) -->
+        <circle cx="60" cy="40" r="2" fill="#10b981">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="70" cy="40" r="2" fill="#10b981">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1s" begin="0.3s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="80" cy="40" r="2" fill="#10b981">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1s" begin="0.6s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Output wave (encoded media) -->
+        <path d="M 90 50 Q 100 30 110 50 Q 120 70 130 50" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round">
+          <animate attributeName="d" 
+                   values="M 90 50 Q 100 30 110 50 Q 120 70 130 50;
+                           M 90 50 Q 100 70 110 50 Q 120 30 130 50;
+                           M 90 50 Q 100 30 110 50 Q 120 70 130 50" 
+                   dur="2s" 
+                   repeatCount="indefinite"/>
+        </path>
+        
+        <!-- Flow arrows -->
+        <polygon points="48,50 43,47 43,53" fill="#3b82f6"/>
+        <polygon points="92,50 97,47 97,53" fill="#10b981"/>
+        
+        <!-- Service architecture nodes (SOCA) -->
+        <circle cx="70" cy="15" r="4" fill="#22d3ee" stroke="#06b6d4" stroke-width="1.5">
+          <animate attributeName="r" values="4;5;4" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="55" cy="85" r="4" fill="#22d3ee" stroke="#06b6d4" stroke-width="1.5">
+          <animate attributeName="r" values="4;5;4" dur="2.3s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="85" cy="85" r="4" fill="#22d3ee" stroke="#06b6d4" stroke-width="1.5">
+          <animate attributeName="r" values="4;5;4" dur="2.6s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Service connection lines -->
+        <line x1="70" y1="15" x2="70" y2="30" stroke="#22d3ee" stroke-width="1" opacity="0.3"/>
+        <line x1="55" y1="85" x2="60" y2="70" stroke="#22d3ee" stroke-width="1" opacity="0.3"/>
+        <line x1="85" y1="85" x2="80" y2="70" stroke="#22d3ee" stroke-width="1" opacity="0.3"/>
+      </g>
+      
+      <!-- Typography -->
+      <g transform="translate(160, 20)">
+        <text x="0" y="45" font-family="Arial, sans-serif" font-size="48" fill="url(#fluxGrad)" font-weight="bold" letter-spacing="1">Flux</text>
+        <text x="125" y="45" font-family="Arial, sans-serif" font-size="48" fill="#f8fafc" font-weight="bold" letter-spacing="1">Encoder</text>
+        <text x="0" y="62" font-family="Arial, sans-serif" font-size="10" fill="#64748b" letter-spacing="2.5" font-weight="500">FFMPEG TUI WRAPPER</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- ICON MARK -->
+  <g id="icon-mark">
+    <text x="100" y="330" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">ICON MARK</text>
+    
+    <g transform="translate(200, 370)">
+      <!-- Container -->
+      <rect x="0" y="0" width="110" height="110" rx="22" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="3"/>
+      
+      <!-- Encoder flow centered -->
+      <g transform="translate(55, 55)">
+        <!-- Input wave -->
+        <path d="M -35 0 Q -28 -12 -21 0 Q -14 12 -7 0" fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round"/>
+        
+        <!-- Encoder box -->
+        <rect x="-15" y="-15" width="30" height="30" rx="5" fill="url(#encoderGrad)" stroke="#f97316" stroke-width="2"/>
+        
+        <!-- FFmpeg symbol -->
+        <text x="0" y="5" font-family="Consolas, monospace" font-size="14" fill="#fbbf24" text-anchor="middle" font-weight="bold">ff</text>
+        
+        <!-- Processing dots -->
+        <circle cx="-8" cy="-18" r="1.5" fill="#10b981"/>
+        <circle cx="0" cy="-18" r="1.5" fill="#10b981"/>
+        <circle cx="8" cy="-18" r="1.5" fill="#10b981"/>
+        
+        <!-- Output wave -->
+        <path d="M 7 0 Q 14 -12 21 0 Q 28 12 35 0" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round"/>
+        
+        <!-- Arrows -->
+        <polygon points="-17,0 -20,-2 -20,2" fill="#3b82f6"/>
+        <polygon points="17,0 20,-2 20,2" fill="#10b981"/>
+        
+        <!-- Service nodes -->
+        <circle cx="0" cy="-28" r="3" fill="#22d3ee" stroke="#06b6d4" stroke-width="1"/>
+        <circle cx="-12" cy="22" r="3" fill="#22d3ee" stroke="#06b6d4" stroke-width="1"/>
+        <circle cx="12" cy="22" r="3" fill="#22d3ee" stroke="#06b6d4" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- ALTERNATIVE CONCEPT: TUI Interface -->
+  <g id="tui-concept">
+    <text x="650" y="115" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">ALTERNATIVE: TUI INTERFACE</text>
+    
+    <g transform="translate(650, 150)">
+      <!-- Terminal window -->
+      <rect x="0" y="0" width="450" height="280" rx="12" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+      
+      <!-- Header -->
+      <rect x="0" y="0" width="450" height="35" rx="12" fill="#1e293b"/>
+      <rect x="0" y="23" width="450" height="12" fill="#1e293b"/>
+      
+      <!-- Controls -->
+      <circle cx="18" cy="17" r="6" fill="#ef4444"/>
+      <circle cx="38" cy="17" r="6" fill="#fbbf24"/>
+      <circle cx="58" cy="17" r="6" fill="#22c55e"/>
+      
+      <text x="225" y="24" font-family="Consolas, monospace" font-size="12" fill="#94a3b8" text-anchor="middle" font-weight="600">FluxEncoder v1.0 - FFmpeg TUI</text>
+      
+      <!-- Content -->
+      <g transform="translate(20, 55)">
+        <!-- Header info -->
+        <text x="0" y="0" font-family="Consolas, monospace" font-size="11" fill="#f97316" font-weight="600">╔══ ENCODING PIPELINE ══════════════════════════╗</text>
+        
+        <!-- Input -->
+        <text x="0" y="20" font-family="Consolas, monospace" font-size="10" fill="#3b82f6">▶ INPUT:</text>
+        <text x="80" y="20" font-family="Consolas, monospace" font-size="10" fill="#cbd5e1">video_source.mp4</text>
+        <text x="240" y="20" font-family="Consolas, monospace" font-size="10" fill="#64748b">[1920x1080 • 60fps]</text>
+        
+        <!-- Processing bar -->
+        <rect x="0" y="28" width="410" height="3" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+        <rect x="0" y="28" width="246" height="3" fill="url(#progressGrad)">
+          <animate attributeName="width" values="0;410;0" dur="5s" repeatCount="indefinite"/>
+        </rect>
+        
+        <!-- Encoder status -->
+        <text x="0" y="48" font-family="Consolas, monospace" font-size="10" fill="#f97316">⚙ ENCODER:</text>
+        <text x="80" y="48" font-family="Consolas, monospace" font-size="10" fill="#fbbf24">H.264</text>
+        <text x="135" y="48" font-family="Consolas, monospace" font-size="10" fill="#64748b">CRF 23</text>
+        <text x="195" y="48" font-family="Consolas, monospace" font-size="10" fill="#64748b">preset: medium</text>
+        
+        <!-- Stats -->
+        <g transform="translate(0, 60)">
+          <text x="0" y="12" font-family="Consolas, monospace" font-size="10" fill="#10b981">✓ Speed:</text>
+          <text x="80" y="12" font-family="Consolas, monospace" font-size="10" fill="#34d399">2.47x</text>
+          
+          <text x="140" y="12" font-family="Consolas, monospace" font-size="10" fill="#10b981">FPS:</text>
+          <text x="180" y="12" font-family="Consolas, monospace" font-size="10" fill="#34d399">148</text>
+          
+          <text x="220" y="12" font-family="Consolas, monospace" font-size="10" fill="#10b981">Bitrate:</text>
+          <text x="285" y="12" font-family="Consolas, monospace" font-size="10" fill="#34d399">4.2 Mbps</text>
+          
+          <text x="0" y="28" font-family="Consolas, monospace" font-size="10" fill="#22d3ee">⏱ Progress:</text>
+          <text x="80" y="28" font-family="Consolas, monospace" font-size="10" fill="#67e8f9">60% (00:02:34 / 00:04:17)</text>
+        </g>
+        
+        <!-- Output -->
+        <text x="0" y="105" font-family="Consolas, monospace" font-size="10" fill="#10b981">▶ OUTPUT:</text>
+        <text x="80" y="105" font-family="Consolas, monospace" font-size="10" fill="#d1fae5">video_encoded.mp4</text>
+        <text x="240" y="105" font-family="Consolas, monospace" font-size="10" fill="#64748b">[1920x1080 • 60fps]</text>
+        
+        <!-- Service architecture visualization -->
+        <g transform="translate(0, 120)">
+          <text x="0" y="0" font-family="Consolas, monospace" font-size="11" fill="#f97316" font-weight="600">╚══ SERVICES (SOCA) ═══════════════════════════╝</text>
+          
+          <rect x="0" y="8" width="130" height="35" rx="4" fill="#164e63" opacity="0.3" stroke="#22d3ee" stroke-width="1"/>
+          <text x="65" y="22" font-family="Consolas, monospace" font-size="9" fill="#22d3ee" text-anchor="middle">Input Service</text>
+          <text x="65" y="35" font-family="Consolas, monospace" font-size="8" fill="#67e8f9" text-anchor="middle">✓ Active</text>
+          
+          <rect x="140" y="8" width="130" height="35" rx="4" fill="#581c87" opacity="0.3" stroke="#a855f7" stroke-width="1"/>
+          <text x="205" y="22" font-family="Consolas, monospace" font-size="9" fill="#a855f7" text-anchor="middle">Encode Service</text>
+          <text x="205" y="35" font-family="Consolas, monospace" font-size="8" fill="#c084fc" text-anchor="middle">⚙ Processing</text>
+          
+          <rect x="280" y="8" width="130" height="35" rx="4" fill="#064e3b" opacity="0.3" stroke="#10b981" stroke-width="1"/>
+          <text x="345" y="22" font-family="Consolas, monospace" font-size="9" fill="#10b981" text-anchor="middle">Output Service</text>
+          <text x="345" y="35" font-family="Consolas, monospace" font-size="8" fill="#34d399" text-anchor="middle">⏳ Waiting</text>
+        </g>
+      </g>
+      
+      <!-- Status bar -->
+      <rect x="15" y="250" width="420" height="20" rx="4" fill="#7c2d12" opacity="0.3"/>
+      <text x="225" y="264" font-family="Consolas, monospace" font-size="9" fill="#f97316" text-anchor="middle">⚡ .NET 10 NativeAOT • Production-Grade Transcoding • Service-Oriented Architecture</text>
+    </g>
+  </g>
+  
+  <!-- COLOR VARIATIONS -->
+  <g id="variations">
+    <text x="100" y="540" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">COLOR VARIATIONS</text>
+    
+    <!-- Orange Flux (Primary) -->
+    <g transform="translate(100, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#orangeBg)" stroke="#f97316" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <path d="M -28 0 Q -22 -10 -16 0 Q -10 10 -4 0" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+        <rect x="-12" y="-12" width="24" height="24" rx="4" fill="url(#encoderGrad)" stroke="#f97316" stroke-width="2"/>
+        <text x="0" y="4" font-family="Consolas, monospace" font-size="11" fill="#fbbf24" text-anchor="middle" font-weight="bold">ff</text>
+        <path d="M 4 0 Q 10 -10 16 0 Q 22 10 28 0" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+        <polygon points="-14,0 -16,-1.5 -16,1.5" fill="#3b82f6"/>
+        <polygon points="14,0 16,-1.5 16,1.5" fill="#10b981"/>
+        <circle cx="0" cy="-20" r="2.5" fill="#22d3ee" stroke="#06b6d4" stroke-width="1"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Orange</text>
+    </g>
+    
+    <!-- Blue Flow -->
+    <g transform="translate(220, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#blueBg)" stroke="#3b82f6" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <path d="M -28 0 Q -22 -10 -16 0 Q -10 10 -4 0" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+        <rect x="-12" y="-12" width="24" height="24" rx="4" fill="#1e3a8a" stroke="#3b82f6" stroke-width="2"/>
+        <text x="0" y="4" font-family="Consolas, monospace" font-size="11" fill="#93c5fd" text-anchor="middle" font-weight="bold">ff</text>
+        <path d="M 4 0 Q 10 -10 16 0 Q 22 10 28 0" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"/>
+        <polygon points="-14,0 -16,-1.5 -16,1.5" fill="#60a5fa"/>
+        <polygon points="14,0 16,-1.5 16,1.5" fill="#22d3ee"/>
+        <circle cx="0" cy="-20" r="2.5" fill="#67e8f9" stroke="#22d3ee" stroke-width="1"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Blue</text>
+    </g>
+    
+    <!-- Purple Encoder -->
+    <g transform="translate(340, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#purpleBg)" stroke="#a855f7" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <path d="M -28 0 Q -22 -10 -16 0 Q -10 10 -4 0" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round"/>
+        <rect x="-12" y="-12" width="24" height="24" rx="4" fill="#581c87" stroke="#a855f7" stroke-width="2"/>
+        <text x="0" y="4" font-family="Consolas, monospace" font-size="11" fill="#d8b4fe" text-anchor="middle" font-weight="bold">ff</text>
+        <path d="M 4 0 Q 10 -10 16 0 Q 22 10 28 0" fill="none" stroke="#e9d5ff" stroke-width="2" stroke-linecap="round"/>
+        <polygon points="-14,0 -16,-1.5 -16,1.5" fill="#c084fc"/>
+        <polygon points="14,0 16,-1.5 16,1.5" fill="#e9d5ff"/>
+        <circle cx="0" cy="-20" r="2.5" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Purple</text>
+    </g>
+    
+    <!-- Green Transcoder -->
+    <g transform="translate(460, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#greenBg)" stroke="#10b981" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <path d="M -28 0 Q -22 -10 -16 0 Q -10 10 -4 0" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"/>
+        <rect x="-12" y="-12" width="24" height="24" rx="4" fill="#064e3b" stroke="#10b981" stroke-width="2"/>
+        <text x="0" y="4" font-family="Consolas, monospace" font-size="11" fill="#6ee7b7" text-anchor="middle" font-weight="bold">ff</text>
+        <path d="M 4 0 Q 10 -10 16 0 Q 22 10 28 0" fill="none" stroke="#a7f3d0" stroke-width="2" stroke-linecap="round"/>
+        <polygon points="-14,0 -16,-1.5 -16,1.5" fill="#34d399"/>
+        <polygon points="14,0 16,-1.5 16,1.5" fill="#a7f3d0"/>
+        <circle cx="0" cy="-20" r="2.5" fill="#d1fae5" stroke="#6ee7b7" stroke-width="1"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Green</text>
+    </g>
+  </g>
+  
+  <!-- APP ICONS -->
+  <g id="app-icons">
+    <text x="650" y="480" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">APP ICONS</text>
+    
+    <!-- 128px -->
+    <g transform="translate(650, 515)">
+      <rect width="110" height="110" rx="22" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="3"/>
+      <g transform="translate(55, 55)">
+        <path d="M -35 0 Q -28 -12 -21 0 Q -14 12 -7 0" fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="-15" y="-15" width="30" height="30" rx="5" fill="url(#encoderGrad)" stroke="#f97316" stroke-width="2"/>
+        <text x="0" y="5" font-family="Consolas, monospace" font-size="14" fill="#fbbf24" text-anchor="middle" font-weight="bold">ff</text>
+        <circle cx="-8" cy="-18" r="1.5" fill="#10b981"/>
+        <circle cx="0" cy="-18" r="1.5" fill="#10b981"/>
+        <circle cx="8" cy="-18" r="1.5" fill="#10b981"/>
+        <path d="M 7 0 Q 14 -12 21 0 Q 28 12 35 0" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round"/>
+        <polygon points="-17,0 -20,-2 -20,2" fill="#3b82f6"/>
+        <polygon points="17,0 20,-2 20,2" fill="#10b981"/>
+        <circle cx="0" cy="-28" r="3" fill="#22d3ee" stroke="#06b6d4" stroke-width="1"/>
+        <circle cx="-12" cy="22" r="3" fill="#22d3ee" stroke="#06b6d4" stroke-width="1"/>
+        <circle cx="12" cy="22" r="3" fill="#22d3ee" stroke="#06b6d4" stroke-width="1"/>
+      </g>
+      <text x="55" y="210" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">128px</text>
+    </g>
+    
+    <!-- 64px -->
+    <g transform="translate(790, 538)">
+      <rect width="64" height="64" rx="13" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="2"/>
+      <g transform="translate(32, 32)">
+        <path d="M -22 0 Q -17 -8 -12 0 Q -7 8 -2 0" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+        <rect x="-10" y="-10" width="20" height="20" rx="3" fill="url(#encoderGrad)" stroke="#f97316" stroke-width="1.5"/>
+        <text x="0" y="3" font-family="Consolas, monospace" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">ff</text>
+        <circle cx="-5" cy="-12" r="1" fill="#10b981"/>
+        <circle cx="0" cy="-12" r="1" fill="#10b981"/>
+        <circle cx="5" cy="-12" r="1" fill="#10b981"/>
+        <path d="M 2 0 Q 7 -8 12 0 Q 17 8 22 0" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+        <polygon points="-12,0 -14,-1.5 -14,1.5" fill="#3b82f6"/>
+        <polygon points="12,0 14,-1.5 14,1.5" fill="#10b981"/>
+      </g>
+      <text x="32" y="80" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">64px</text>
+    </g>
+    
+    <!-- 32px -->
+    <g transform="translate(884, 570)">
+      <rect width="32" height="32" rx="7" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="1"/>
+      <g transform="translate(16, 16)">
+        <path d="M -11 0 Q -8 -5 -5 0 Q -2 5 1 0" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+        <rect x="-5" y="-5" width="10" height="10" rx="2" fill="url(#encoderGrad)" stroke="#f97316" stroke-width="1"/>
+        <text x="0" y="2" font-family="Consolas, monospace" font-size="5" fill="#fbbf24" text-anchor="middle" font-weight="bold">ff</text>
+        <path d="M 1 0 Q 4 -5 7 0 Q 10 5 13 0" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round"/>
+        <polygon points="-6,0 -7,-1 -7,1" fill="#3b82f6"/>
+        <polygon points="6,0 7,-1 7,1" fill="#10b981"/>
+      </g>
+      <text x="16" y="48" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">32px</text>
+    </g>
+  </g>
+  
+  <!-- MONOCHROME -->
+  <g id="monochrome">
+    <text x="650" y="660" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">MONOCHROME</text>
+    
+    <!-- Light -->
+    <g transform="translate(650, 690)">
+      <rect width="130" height="85" rx="8" fill="#0f172a"/>
+      <g transform="translate(65, 42)">
+        <path d="M -25 0 Q -18 -10 -11 0 Q -4 10 3 0" fill="none" stroke="#f8fafc" stroke-width="2" stroke-linecap="round"/>
+        <rect x="-11" y="-11" width="22" height="22" rx="4" fill="none" stroke="#f8fafc" stroke-width="2"/>
+        <text x="0" y="4" font-family="Consolas, monospace" font-size="11" fill="#f8fafc" text-anchor="middle" font-weight="bold">ff</text>
+        <path d="M 3 0 Q 10 -10 17 0 Q 24 10 31 0" fill="none" stroke="#f8fafc" stroke-width="2" stroke-linecap="round"/>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Light</text>
+    </g>
+    
+    <!-- Dark -->
+    <g transform="translate(810, 690)">
+      <rect width="130" height="85" rx="8" fill="#f8fafc"/>
+      <g transform="translate(65, 42)">
+        <path d="M -25 0 Q -18 -10 -11 0 Q -4 10 3 0" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+        <rect x="-11" y="-11" width="22" height="22" rx="4" fill="none" stroke="#0f172a" stroke-width="2"/>
+        <text x="0" y="4" font-family="Consolas, monospace" font-size="11" fill="#0f172a" text-anchor="middle" font-weight="bold">ff</text>
+        <path d="M 3 0 Q 10 -10 17 0 Q 24 10 31 0" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Dark</text>
+    </g>
+    
+    <!-- Single -->
+    <g transform="translate(970, 690)">
+      <rect width="130" height="85" rx="8" fill="#f97316"/>
+      <g transform="translate(65, 42)">
+        <path d="M -25 0 Q -18 -10 -11 0 Q -4 10 3 0" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+        <rect x="-11" y="-11" width="22" height="22" rx="4" fill="#7c2d12" stroke="#ffffff" stroke-width="2"/>
+        <text x="0" y="4" font-family="Consolas, monospace" font-size="11" fill="#fef3c7" text-anchor="middle" font-weight="bold">ff</text>
+        <path d="M 3 0 Q 10 -10 17 0 Q 24 10 31 0" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#7c2d12" text-anchor="middle">Single</text>
+    </g>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="encoderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c2d12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9a3412;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="fluxGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="progressGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="iconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="iconStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="orangeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c2d12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9a3412;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="blueBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="purpleBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#581c87;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6b21a8;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="greenBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#064e3b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#065f46;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

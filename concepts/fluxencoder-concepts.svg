@@ -1,0 +1,338 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#0a0e1a"/>
+
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="22" fill="#64748b" text-anchor="middle" font-weight="600">FluxEncoder v2 — Redesigned Logo Concepts</text>
+  <text x="600" y="62" font-family="Arial, sans-serif" font-size="13" fill="#475569" text-anchor="middle">.NET 10 NativeAOT • SOCA • Production-Grade Transcoding</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- CONCEPT A: BOLT THROUGH FILM FRAME             -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <text x="100" y="100" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="600">CONCEPT A — Bolt Through Film</text>
+
+  <g transform="translate(100, 120)">
+    <!-- Film frame outer -->
+    <rect x="0" y="0" width="100" height="80" rx="6" fill="url(#filmBg)" stroke="#475569" stroke-width="2.5"/>
+    <!-- Film sprocket holes top -->
+    <rect x="6"  y="5"  width="10" height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <rect x="22" y="5"  width="10" height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <rect x="38" y="5"  width="10" height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <rect x="54" y="5"  width="10" height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <rect x="70" y="5"  width="10" height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <rect x="86" y="5"  width="8"  height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <!-- Film sprocket holes bottom -->
+    <rect x="6"  y="67" width="10" height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <rect x="22" y="67" width="10" height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <rect x="38" y="67" width="10" height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <rect x="54" y="67" width="10" height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <rect x="70" y="67" width="10" height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <rect x="86" y="67" width="8"  height="8" rx="2" fill="#0a0e1a" stroke="#64748b" stroke-width="1"/>
+    <!-- Film image area -->
+    <rect x="4" y="16" width="92" height="48" rx="2" fill="#0f172a"/>
+    <!-- Lightning bolt crashing through -->
+    <path d="M 62 16 L 42 42 L 52 42 L 38 64 L 68 36 L 56 36 Z" fill="url(#boltGrad)" stroke="#fbbf24" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Glow behind bolt -->
+    <path d="M 62 16 L 42 42 L 52 42 L 38 64 L 68 36 L 56 36 Z" fill="#f97316" opacity="0.15"/>
+    <!-- Speed lines from bolt -->
+    <line x1="20" y1="32" x2="38" y2="32" stroke="#f97316" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+    <line x1="15" y1="40" x2="38" y2="40" stroke="#f97316" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+    <line x1="20" y1="48" x2="38" y2="48" stroke="#f97316" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+    <!-- Emerge lines right -->
+    <line x1="68" y1="32" x2="86" y2="32" stroke="#10b981" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+    <line x1="68" y1="40" x2="92" y2="40" stroke="#10b981" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+    <line x1="68" y1="48" x2="86" y2="48" stroke="#10b981" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Concept A Typography -->
+  <g transform="translate(220, 140)">
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="46" fill="#f8fafc" font-weight="900" letter-spacing="-1">Flux</text>
+    <text x="108" y="35" font-family="Arial, sans-serif" font-size="46" fill="url(#boltGrad)" font-weight="900" letter-spacing="-1">Encoder</text>
+    <text x="0" y="52" font-family="Arial, sans-serif" font-size="10" fill="#475569" letter-spacing="3">FFMPEG TUI WRAPPER  •  NATIVEAOT</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- CONCEPT B: HEXAGONAL PIPELINE                  -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <text x="100" y="270" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="600">CONCEPT B — Hexagonal Pipeline</text>
+
+  <g transform="translate(100, 295)">
+    <!-- Three interlocked hexagons representing Input → Encode → Output -->
+
+    <!-- Hex 1: Input (blue) -->
+    <polygon points="35,4 63,4 77,28 63,52 35,52 21,28" fill="url(#hexBlueBg)" stroke="#3b82f6" stroke-width="2.5"/>
+    <text x="49" y="25" font-family="Arial, sans-serif" font-size="8" fill="#93c5fd" text-anchor="middle" font-weight="600">INPUT</text>
+    <path d="M 36 35 Q 42 28 36 21" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 42 38 Q 49 28 42 18" fill="none" stroke="#93c5fd" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 48 40 Q 56 28 48 16" fill="none" stroke="#bfdbfe" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Arrow 1 -->
+    <polygon points="80,28 75,24 75,32" fill="#475569"/>
+
+    <!-- Hex 2: Encode (orange/amber — center) -->
+    <polygon points="91,4 119,4 133,28 119,52 91,52 77,28" fill="url(#hexOrangeBg)" stroke="#f97316" stroke-width="2.5"/>
+    <text x="105" y="23" font-family="Consolas, monospace" font-size="14" fill="#fbbf24" text-anchor="middle" font-weight="bold">ff</text>
+    <text x="105" y="38" font-family="Arial, sans-serif" font-size="7" fill="#fed7aa" text-anchor="middle" font-weight="600">ENCODE</text>
+    <!-- Processing dot pulse -->
+    <circle cx="97"  cy="45" r="2" fill="#10b981"><animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="105" cy="45" r="2" fill="#10b981"><animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="0.26s" repeatCount="indefinite"/></circle>
+    <circle cx="113" cy="45" r="2" fill="#10b981"><animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="0.52s" repeatCount="indefinite"/></circle>
+
+    <!-- Arrow 2 -->
+    <polygon points="136,28 131,24 131,32" fill="#475569"/>
+
+    <!-- Hex 3: Output (green) -->
+    <polygon points="147,4 175,4 189,28 175,52 147,52 133,28" fill="url(#hexGreenBg)" stroke="#10b981" stroke-width="2.5"/>
+    <text x="161" y="25" font-family="Arial, sans-serif" font-size="8" fill="#6ee7b7" text-anchor="middle" font-weight="600">OUTPUT</text>
+    <!-- Output waveform bars -->
+    <rect x="140" y="30" width="4" height="14" rx="2" fill="#10b981" opacity="0.5"/>
+    <rect x="146" y="25" width="4" height="19" rx="2" fill="#10b981" opacity="0.7"/>
+    <rect x="152" y="28" width="4" height="16" rx="2" fill="#10b981"/>
+    <rect x="158" y="22" width="4" height="22" rx="2" fill="#34d399"/>
+    <rect x="164" y="27" width="4" height="17" rx="2" fill="#10b981"/>
+    <rect x="170" y="32" width="4" height="12" rx="2" fill="#10b981" opacity="0.7"/>
+    <rect x="176" y="29" width="4" height="15" rx="2" fill="#10b981" opacity="0.5"/>
+  </g>
+
+  <!-- Concept B Typography -->
+  <g transform="translate(320, 310)">
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="46" font-weight="900" fill="#f8fafc" letter-spacing="-1">Flux<tspan fill="url(#boltGrad)">Encoder</tspan></text>
+    <text x="0" y="47" font-family="Arial, sans-serif" font-size="10" fill="#475569" letter-spacing="3">SERVICE-ORIENTED  •  .NET 10  •  NATIVEAOT</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- CONCEPT C: TERMINAL WAVEFORM MARK              -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <text x="100" y="430" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="600">CONCEPT C — Terminal Waveform Mark</text>
+
+  <g transform="translate(100, 455)">
+    <!-- Terminal rounded square -->
+    <rect x="0" y="0" width="100" height="80" rx="14" fill="url(#termDarkBg)" stroke="url(#termStroke)" stroke-width="2.5"/>
+
+    <!-- Header strip -->
+    <rect x="0" y="0" width="100" height="20" rx="14" fill="#1e293b"/>
+    <rect x="0" y="12" width="100" height="8" fill="#1e293b"/>
+    <!-- Dots -->
+    <circle cx="12" cy="10" r="3.5" fill="#ef4444"/>
+    <circle cx="22" cy="10" r="3.5" fill="#fbbf24"/>
+    <circle cx="32" cy="10" r="3.5" fill="#22c55e"/>
+    <!-- Prompt in header -->
+    <text x="62" y="14" font-family="Consolas, monospace" font-size="9" fill="#64748b" text-anchor="middle">FluxEncoder</text>
+
+    <!-- Waveform bars (audio/video spectrum) centered -->
+    <g transform="translate(10, 28)">
+      <rect x="0"  y="14" width="5" height="10" rx="2" fill="#3b82f6" opacity="0.6"/>
+      <rect x="7"  y="8"  width="5" height="16" rx="2" fill="#3b82f6" opacity="0.8"/>
+      <rect x="14" y="4"  width="5" height="20" rx="2" fill="#3b82f6"/>
+      <rect x="21" y="10" width="5" height="14" rx="2" fill="#3b82f6" opacity="0.8"/>
+
+      <!-- Center gap with bolt -->
+      <path d="M 36 2 L 28 13 L 33 13 L 27 24 L 43 11 L 37 11 Z" fill="url(#boltGrad)" stroke="#fbbf24" stroke-width="1" stroke-linejoin="round"/>
+
+      <rect x="54" y="10" width="5" height="14" rx="2" fill="#10b981" opacity="0.8"/>
+      <rect x="61" y="4"  width="5" height="20" rx="2" fill="#10b981"/>
+      <rect x="68" y="8"  width="5" height="16" rx="2" fill="#10b981" opacity="0.8"/>
+      <rect x="75" y="14" width="5" height="10" rx="2" fill="#10b981" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- Concept C Typography -->
+  <g transform="translate(220, 470)">
+    <text x="0" y="30" font-family="Consolas, Courier New, monospace" font-size="44" fill="#f8fafc" font-weight="700">Flux<tspan fill="#f97316">Encoder</tspan></text>
+    <text x="0" y="48" font-family="Arial, sans-serif" font-size="10" fill="#475569" letter-spacing="3">PRODUCTION-GRADE FFMPEG WRAPPER</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- ICON MARKS ROW                                  -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <text x="100" y="590" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="600">ICON MARKS</text>
+
+  <!-- Icon A: Bolt + Film -->
+  <g transform="translate(100, 610)">
+    <rect width="90" height="90" rx="18" fill="url(#iconDark)" stroke="url(#iconStrokeA)" stroke-width="2.5"/>
+    <g transform="translate(45, 45)">
+      <rect x="-30" y="-25" width="60" height="48" rx="4" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+      <rect x="-30" y="-25" width="60" height="9" rx="4" fill="#1e293b"/>
+      <circle cx="-22" cy="-20.5" r="2" fill="#ef4444"/>
+      <circle cx="-16" cy="-20.5" r="2" fill="#fbbf24"/>
+      <circle cx="-10" cy="-20.5" r="2" fill="#22c55e"/>
+      <!-- Sprockets -->
+      <rect x="-28" y="-14" width="5" height="4" rx="1" fill="#334155"/>
+      <rect x="-28" y="-4"  width="5" height="4" rx="1" fill="#334155"/>
+      <rect x="-28" y="6"   width="5" height="4" rx="1" fill="#334155"/>
+      <rect x="23"  y="-14" width="5" height="4" rx="1" fill="#334155"/>
+      <rect x="23"  y="-4"  width="5" height="4" rx="1" fill="#334155"/>
+      <rect x="23"  y="6"   width="5" height="4" rx="1" fill="#334155"/>
+      <!-- Bolt -->
+      <path d="M 8 -14 L -2 0 L 4 0 L -6 14 L 14 -2 L 6 -2 Z" fill="url(#boltGrad)" stroke="#fbbf24" stroke-width="1"/>
+      <!-- Speed lines -->
+      <line x1="-18" y1="-4" x2="-10" y2="-4" stroke="#f97316" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+      <line x1="-18" y1="4"  x2="-8"  y2="4"  stroke="#f97316" stroke-width="2"   opacity="0.8" stroke-linecap="round"/>
+    </g>
+    <text x="45" y="112" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Concept A</text>
+  </g>
+
+  <!-- Icon B: Hex Pipeline -->
+  <g transform="translate(215, 610)">
+    <rect width="90" height="90" rx="18" fill="url(#iconDark)" stroke="url(#iconStrokeB)" stroke-width="2.5"/>
+    <g transform="translate(45, 45)">
+      <!-- Mini hex trio -->
+      <polygon points="-26,-15 -14,-15 -8,0 -14,15 -26,15 -32,0" fill="url(#hexBlueBg)" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="-20" y="5" font-family="Arial, sans-serif" font-size="7" fill="#93c5fd" text-anchor="middle" font-weight="bold">IN</text>
+
+      <polygon points="-6,-15 6,-15 12,0 6,15 -6,15 -12,0" fill="url(#hexOrangeBg)" stroke="#f97316" stroke-width="1.5"/>
+      <text x="0" y="4" font-family="Consolas, monospace" font-size="10" fill="#fbbf24" text-anchor="middle" font-weight="bold">ff</text>
+
+      <polygon points="14,-15 26,-15 32,0 26,15 14,15 8,0" fill="url(#hexGreenBg)" stroke="#10b981" stroke-width="1.5"/>
+      <text x="20" y="5" font-family="Arial, sans-serif" font-size="7" fill="#6ee7b7" text-anchor="middle" font-weight="bold">OUT</text>
+
+      <!-- Arrows -->
+      <polygon points="-9,0 -11,-2 -11,2" fill="#475569"/>
+      <polygon points="11,0 9,-2 9,2" fill="#475569"/>
+    </g>
+    <text x="45" y="112" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Concept B</text>
+  </g>
+
+  <!-- Icon C: Waveform Terminal -->
+  <g transform="translate(330, 610)">
+    <rect width="90" height="90" rx="18" fill="url(#iconDark)" stroke="url(#iconStrokeC)" stroke-width="2.5"/>
+    <g transform="translate(45, 45)">
+      <rect x="-32" y="-28" width="64" height="52" rx="8" fill="url(#termDarkBg)" stroke="#334155" stroke-width="1.5"/>
+      <rect x="-32" y="-28" width="64" height="13" rx="8" fill="#1e293b"/>
+      <circle cx="-24" cy="-21.5" r="2" fill="#ef4444"/>
+      <circle cx="-18" cy="-21.5" r="2" fill="#fbbf24"/>
+      <circle cx="-12" cy="-21.5" r="2" fill="#22c55e"/>
+      <!-- Waveform bars -->
+      <g transform="translate(0, 5)">
+        <rect x="-24" y="2"  width="4" height="8"  rx="1" fill="#3b82f6" opacity="0.7"/>
+        <rect x="-18" y="-2" width="4" height="12" rx="1" fill="#3b82f6"/>
+        <rect x="-12" y="4"  width="4" height="6"  rx="1" fill="#3b82f6" opacity="0.8"/>
+        <!-- Bolt center -->
+        <path d="M 2 -6 L -3 2 L 1 2 L -4 10 L 8 0 L 3 0 Z" fill="url(#boltGrad)" stroke="#fbbf24" stroke-width="0.8"/>
+        <rect x="10" y="4"  width="4" height="6"  rx="1" fill="#10b981" opacity="0.8"/>
+        <rect x="16" y="-2" width="4" height="12" rx="1" fill="#10b981"/>
+        <rect x="22" y="2"  width="4" height="8"  rx="1" fill="#10b981" opacity="0.7"/>
+      </g>
+    </g>
+    <text x="45" y="112" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Concept C</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- COLOR PALETTE STRIP                             -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <text x="550" y="590" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="600">COLOR PALETTE</text>
+
+  <g transform="translate(550, 610)">
+    <rect x="0"   y="0" width="60" height="60" rx="10" fill="#f97316"/>
+    <text x="30"  y="78" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Orange</text>
+
+    <rect x="70"  y="0" width="60" height="60" rx="10" fill="#fbbf24"/>
+    <text x="100" y="78" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Amber</text>
+
+    <rect x="140" y="0" width="60" height="60" rx="10" fill="#3b82f6"/>
+    <text x="170" y="78" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Blue</text>
+
+    <rect x="210" y="0" width="60" height="60" rx="10" fill="#10b981"/>
+    <text x="240" y="78" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Green</text>
+
+    <rect x="280" y="0" width="60" height="60" rx="10" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+    <text x="310" y="78" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Dark</text>
+
+    <rect x="350" y="0" width="60" height="60" rx="10" fill="url(#palGrad)"/>
+    <text x="380" y="78" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Gradient</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- MONOCHROME STRIP                                -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <text x="550" y="720" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="600">MONOCHROME</text>
+
+  <!-- Light on dark -->
+  <g transform="translate(550, 740)">
+    <rect width="130" height="40" rx="8" fill="#0f172a"/>
+    <text x="30"  y="25" font-family="Arial, sans-serif" font-size="16" fill="#f8fafc" font-weight="900">Flux<tspan fill="#f8fafc">Encoder</tspan></text>
+  </g>
+
+  <!-- Dark on light -->
+  <g transform="translate(700, 740)">
+    <rect width="130" height="40" rx="8" fill="#f8fafc"/>
+    <text x="30"  y="25" font-family="Arial, sans-serif" font-size="16" fill="#0f172a" font-weight="900">Flux<tspan fill="#0f172a">Encoder</tspan></text>
+  </g>
+
+  <!-- Single orange -->
+  <g transform="translate(850, 740)">
+    <rect width="130" height="40" rx="8" fill="#f97316"/>
+    <text x="30" y="25" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="900">Flux<tspan fill="#fff7ed">Encoder</tspan></text>
+  </g>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:#fbbf24;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="filmBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:#1e293b;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="hexBlueBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#1e3a8a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="hexOrangeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#7c2d12;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#9a3412;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="hexGreenBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#064e3b;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#065f46;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="termDarkBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:#1e293b;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="termStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#f97316;stop-opacity:0.8"/>
+      <stop offset="50%"  style="stop-color:#fbbf24;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:0.8"/>
+    </linearGradient>
+
+    <linearGradient id="iconDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#1e293b;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="iconStrokeA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#fbbf24;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="iconStrokeB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#3b82f6;stop-opacity:0.8"/>
+      <stop offset="50%"  style="stop-color:#f97316;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="iconStrokeC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#3b82f6;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="palGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   style="stop-color:#3b82f6;stop-opacity:1"/>
+      <stop offset="50%"  style="stop-color:#f97316;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,483 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#0a0e1a"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="24" fill="#64748b" text-anchor="middle" font-weight="600">Color Kit - Universal Color Reference Suite</text>
+  <text x="600" y="65" font-family="Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Single File. Offline First. Web + CLI Color Bridge.</text>
+  
+  <!-- PRIMARY LOGO -->
+  <g id="primary-logo">
+    <text x="100" y="115" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">PRIMARY LOGO</text>
+    
+    <g transform="translate(180, 160)">
+      <!-- Color palette/kit icon -->
+      <g id="palette-icon">
+        <!-- Main palette base (artist palette shape) -->
+        <path d="M 20 45 Q 15 30 20 20 Q 30 10 50 10 Q 70 10 80 20 Q 85 30 80 45 Q 75 60 65 70 L 55 65 Q 50 62 45 65 L 35 70 Q 25 60 20 45 Z" 
+              fill="url(#paletteBase)" 
+              stroke="#64748b" 
+              stroke-width="2.5"/>
+        
+        <!-- Thumb hole -->
+        <ellipse cx="38" cy="68" rx="6" ry="8" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+        
+        <!-- Color swatches (representing RGB, HSL, HEX, ANSI) -->
+        <!-- Red swatch -->
+        <circle cx="35" cy="28" r="8" fill="#ef4444" stroke="#dc2626" stroke-width="2">
+          <animate attributeName="opacity" values="1;0.8;1" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Green swatch -->
+        <circle cx="50" cy="22" r="8" fill="#22c55e" stroke="#16a34a" stroke-width="2">
+          <animate attributeName="opacity" values="1;0.8;1" dur="3.3s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Blue swatch -->
+        <circle cx="65" cy="28" r="8" fill="#3b82f6" stroke="#2563eb" stroke-width="2">
+          <animate attributeName="opacity" values="1;0.8;1" dur="3.6s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Yellow swatch -->
+        <circle cx="42" cy="42" r="7" fill="#fbbf24" stroke="#f59e0b" stroke-width="2">
+          <animate attributeName="opacity" values="1;0.8;1" dur="3.9s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Cyan swatch -->
+        <circle cx="58" cy="42" r="7" fill="#06b6d4" stroke="#0891b2" stroke-width="2">
+          <animate attributeName="opacity" values="1;0.8;1" dur="4.2s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Magenta swatch -->
+        <circle cx="50" cy="52" r="7" fill="#ec4899" stroke="#db2777" stroke-width="2">
+          <animate attributeName="opacity" values="1;0.8;1" dur="4.5s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Bridge line (connecting web to terminal) -->
+        <line x1="85" y1="35" x2="105" y2="35" stroke="url(#bridgeGrad)" stroke-width="3" stroke-dasharray="4,4">
+          <animate attributeName="stroke-dashoffset" values="0;-8;0" dur="2s" repeatCount="indefinite"/>
+        </line>
+        
+        <!-- Terminal indicator -->
+        <rect x="105" y="25" width="20" height="20" rx="3" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+        <text x="115" y="39" font-family="Consolas, monospace" font-size="12" fill="#22c55e" text-anchor="middle">&gt;</text>
+      </g>
+      
+      <!-- Typography -->
+      <g transform="translate(145, 15)">
+        <text x="0" y="45" font-family="Arial, sans-serif" font-size="52" fill="#f8fafc" font-weight="bold" letter-spacing="1">Color</text>
+        <text x="150" y="45" font-family="Arial, sans-serif" font-size="52" fill="url(#colorfulText)" font-weight="bold" letter-spacing="1">Kit</text>
+        <text x="0" y="62" font-family="Arial, sans-serif" font-size="11" fill="#64748b" letter-spacing="3" font-weight="500">WEB + CLI COLOR BRIDGE</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- ICON MARK -->
+  <g id="icon-mark">
+    <text x="100" y="330" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">ICON MARK</text>
+    
+    <g transform="translate(200, 370)">
+      <!-- Container -->
+      <rect x="0" y="0" width="110" height="110" rx="22" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="3"/>
+      
+      <!-- Centered palette -->
+      <g transform="translate(55, 55)">
+        <path d="M -20 0 Q -23 -12 -20 -20 Q -12 -28 5 -28 Q 22 -28 30 -20 Q 33 -12 30 0 Q 27 12 19 20 L 11 16 Q 7 14 3 16 L -5 20 Q -13 12 -20 0 Z" 
+              fill="url(#paletteBase)" 
+              stroke="#64748b" 
+              stroke-width="2.5"/>
+        
+        <!-- Thumb hole -->
+        <ellipse cx="-4" cy="18" rx="5" ry="6" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+        
+        <!-- Color swatches -->
+        <circle cx="-8" cy="-8" r="6" fill="#ef4444" stroke="#dc2626" stroke-width="1.5"/>
+        <circle cx="5" cy="-13" r="6" fill="#22c55e" stroke="#16a34a" stroke-width="1.5"/>
+        <circle cx="18" cy="-8" r="6" fill="#3b82f6" stroke="#2563eb" stroke-width="1.5"/>
+        <circle cx="-1" cy="2" r="5.5" fill="#fbbf24" stroke="#f59e0b" stroke-width="1.5"/>
+        <circle cx="11" cy="2" r="5.5" fill="#06b6d4" stroke="#0891b2" stroke-width="1.5"/>
+        <circle cx="5" cy="10" r="5.5" fill="#ec4899" stroke="#db2777" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- ALTERNATIVE CONCEPT: Color Bridge -->
+  <g id="bridge-concept">
+    <text x="650" y="115" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">ALTERNATIVE: WEB + CLI BRIDGE</text>
+    
+    <g transform="translate(650, 150)">
+      <!-- Container -->
+      <rect x="0" y="0" width="450" height="240" rx="12" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+      
+      <!-- Split view header -->
+      <rect x="0" y="0" width="450" height="35" rx="12" fill="#334155"/>
+      <rect x="0" y="23" width="450" height="12" fill="#334155"/>
+      
+      <circle cx="18" cy="17" r="6" fill="#ef4444"/>
+      <circle cx="38" cy="17" r="6" fill="#fbbf24"/>
+      <circle cx="58" cy="17" r="6" fill="#22c55e"/>
+      
+      <text x="225" y="24" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle" font-weight="600">Color Kit - Universal Color Reference</text>
+      
+      <!-- Split content area -->
+      <!-- Left: Web/CSS -->
+      <g transform="translate(15, 55)">
+        <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#06b6d4" font-weight="600">WEB / CSS</text>
+        
+        <!-- Color cards -->
+        <g transform="translate(0, 15)">
+          <rect x="0" y="0" width="80" height="35" rx="6" fill="#ef4444"/>
+          <text x="40" y="15" font-family="Consolas, monospace" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">#ef4444</text>
+          <text x="40" y="27" font-family="Arial, sans-serif" font-size="8" fill="#fee2e2" text-anchor="middle">red-500</text>
+          
+          <rect x="90" y="0" width="80" height="35" rx="6" fill="#22c55e"/>
+          <text x="130" y="15" font-family="Consolas, monospace" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">#22c55e</text>
+          <text x="130" y="27" font-family="Arial, sans-serif" font-size="8" fill="#dcfce7" text-anchor="middle">green-500</text>
+        </g>
+        
+        <g transform="translate(0, 60)">
+          <rect x="0" y="0" width="80" height="35" rx="6" fill="#3b82f6"/>
+          <text x="40" y="15" font-family="Consolas, monospace" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">#3b82f6</text>
+          <text x="40" y="27" font-family="Arial, sans-serif" font-size="8" fill="#dbeafe" text-anchor="middle">blue-500</text>
+          
+          <rect x="90" y="0" width="80" height="35" rx="6" fill="#a855f7"/>
+          <text x="130" y="15" font-family="Consolas, monospace" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">#a855f7</text>
+          <text x="130" y="27" font-family="Arial, sans-serif" font-size="8" fill="#f3e8ff" text-anchor="middle">purple-500</text>
+        </g>
+        
+        <!-- CSS code -->
+        <g transform="translate(0, 110)">
+          <text x="0" y="0" font-family="Consolas, monospace" font-size="10" fill="#94a3b8">color:</text>
+          <text x="50" y="0" font-family="Consolas, monospace" font-size="10" fill="#ef4444">#ef4444</text>
+          <text x="115" y="0" font-family="Consolas, monospace" font-size="10" fill="#64748b">;</text>
+        </g>
+      </g>
+      
+      <!-- Center: Bridge -->
+      <g transform="translate(215, 120)">
+        <line x1="0" y1="0" x2="20" y2="0" stroke="url(#bridgeGrad)" stroke-width="3"/>
+        <polygon points="20,0 15,-4 15,4" fill="#06b6d4"/>
+      </g>
+      
+      <!-- Right: Terminal/ANSI -->
+      <g transform="translate(240, 55)">
+        <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#22c55e" font-weight="600">TERMINAL / ANSI</text>
+        
+        <!-- Terminal blocks -->
+        <g transform="translate(0, 15)">
+          <rect x="0" y="0" width="185" height="20" rx="4" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+          <text x="5" y="14" font-family="Consolas, monospace" font-size="10" fill="#ef4444">■</text>
+          <text x="20" y="14" font-family="Consolas, monospace" font-size="9" fill="#94a3b8">ESC[38;2;239;68;68m</text>
+          
+          <rect x="0" y="28" width="185" height="20" rx="4" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+          <text x="5" y="42" font-family="Consolas, monospace" font-size="10" fill="#22c55e">■</text>
+          <text x="20" y="42" font-family="Consolas, monospace" font-size="9" fill="#94a3b8">ESC[38;2;34;197;94m</text>
+          
+          <rect x="0" y="56" width="185" height="20" rx="4" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+          <text x="5" y="70" font-family="Consolas, monospace" font-size="10" fill="#3b82f6">■</text>
+          <text x="20" y="70" font-family="Consolas, monospace" font-size="9" fill="#94a3b8">ESC[38;2;59;130;246m</text>
+          
+          <rect x="0" y="84" width="185" height="20" rx="4" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+          <text x="5" y="98" font-family="Consolas, monospace" font-size="10" fill="#a855f7">■</text>
+          <text x="20" y="98" font-family="Consolas, monospace" font-size="9" fill="#94a3b8">ESC[38;2;168;85;247m</text>
+        </g>
+        
+        <!-- Terminal output -->
+        <g transform="translate(0, 125)">
+          <text x="0" y="0" font-family="Consolas, monospace" font-size="10" fill="#22c55e">&gt;</text>
+          <text x="12" y="0" font-family="Consolas, monospace" font-size="10" fill="#ef4444">Error:</text>
+          <text x="60" y="0" font-family="Consolas, monospace" font-size="10" fill="#94a3b8">Colored text</text>
+        </g>
+      </g>
+      
+      <!-- Bottom badge -->
+      <g transform="translate(15, 210)">
+        <rect x="0" y="0" width="420" height="18" rx="4" fill="#064e3b" opacity="0.3"/>
+        <text x="210" y="13" font-family="Arial, sans-serif" font-size="10" fill="#10b981" text-anchor="middle" font-weight="600">✓ Single HTML File • No Dependencies • Offline First • 0 Build Steps</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- COLOR VARIATIONS -->
+  <g id="variations">
+    <text x="100" y="540" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">COLOR VARIATIONS</text>
+    
+    <!-- Rainbow (Primary) -->
+    <g transform="translate(100, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#rainbowBg)" stroke="url(#rainbowStroke)" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <path d="M -18 0 Q -20 -10 -18 -18 Q -10 -24 2 -24 Q 14 -24 22 -18 Q 24 -10 22 0 Q 20 10 14 16 L 8 13 Q 5 11 2 13 L -4 16 Q -10 10 -18 0 Z" 
+              fill="url(#paletteBase)" 
+              stroke="#64748b" 
+              stroke-width="2"/>
+        <ellipse cx="-3" cy="14" rx="4" ry="5" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+        <circle cx="-7" cy="-7" r="5" fill="#ef4444"/>
+        <circle cx="2" cy="-11" r="5" fill="#22c55e"/>
+        <circle cx="11" cy="-7" r="5" fill="#3b82f6"/>
+        <circle cx="-2" cy="1" r="4.5" fill="#fbbf24"/>
+        <circle cx="6" cy="1" r="4.5" fill="#06b6d4"/>
+        <circle cx="2" cy="7" r="4.5" fill="#ec4899"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Rainbow</text>
+    </g>
+    
+    <!-- Monochrome Spectrum -->
+    <g transform="translate(220, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#monoGrad)" stroke="#94a3b8" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <path d="M -18 0 Q -20 -10 -18 -18 Q -10 -24 2 -24 Q 14 -24 22 -18 Q 24 -10 22 0 Q 20 10 14 16 L 8 13 Q 5 11 2 13 L -4 16 Q -10 10 -18 0 Z" 
+              fill="url(#paletteBase)" 
+              stroke="#64748b" 
+              stroke-width="2"/>
+        <ellipse cx="-3" cy="14" rx="4" ry="5" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+        <circle cx="-7" cy="-7" r="5" fill="#1e293b"/>
+        <circle cx="2" cy="-11" r="5" fill="#475569"/>
+        <circle cx="11" cy="-7" r="5" fill="#64748b"/>
+        <circle cx="-2" cy="1" r="4.5" fill="#94a3b8"/>
+        <circle cx="6" cy="1" r="4.5" fill="#cbd5e1"/>
+        <circle cx="2" cy="7" r="4.5" fill="#f1f5f9"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Grayscale</text>
+    </g>
+    
+    <!-- Warm Palette -->
+    <g transform="translate(340, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#warmBg)" stroke="#f97316" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <path d="M -18 0 Q -20 -10 -18 -18 Q -10 -24 2 -24 Q 14 -24 22 -18 Q 24 -10 22 0 Q 20 10 14 16 L 8 13 Q 5 11 2 13 L -4 16 Q -10 10 -18 0 Z" 
+              fill="url(#paletteBase)" 
+              stroke="#64748b" 
+              stroke-width="2"/>
+        <ellipse cx="-3" cy="14" rx="4" ry="5" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+        <circle cx="-7" cy="-7" r="5" fill="#ef4444"/>
+        <circle cx="2" cy="-11" r="5" fill="#f97316"/>
+        <circle cx="11" cy="-7" r="5" fill="#fbbf24"/>
+        <circle cx="-2" cy="1" r="4.5" fill="#fb923c"/>
+        <circle cx="6" cy="1" r="4.5" fill="#fcd34d"/>
+        <circle cx="2" cy="7" r="4.5" fill="#ec4899"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Warm</text>
+    </g>
+    
+    <!-- Cool Palette -->
+    <g transform="translate(460, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#coolBg)" stroke="#06b6d4" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <path d="M -18 0 Q -20 -10 -18 -18 Q -10 -24 2 -24 Q 14 -24 22 -18 Q 24 -10 22 0 Q 20 10 14 16 L 8 13 Q 5 11 2 13 L -4 16 Q -10 10 -18 0 Z" 
+              fill="url(#paletteBase)" 
+              stroke="#64748b" 
+              stroke-width="2"/>
+        <ellipse cx="-3" cy="14" rx="4" ry="5" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+        <circle cx="-7" cy="-7" r="5" fill="#3b82f6"/>
+        <circle cx="2" cy="-11" r="5" fill="#06b6d4"/>
+        <circle cx="11" cy="-7" r="5" fill="#8b5cf6"/>
+        <circle cx="-2" cy="1" r="4.5" fill="#0ea5e9"/>
+        <circle cx="6" cy="1" r="4.5" fill="#22d3ee"/>
+        <circle cx="2" cy="7" r="4.5" fill="#6366f1"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Cool</text>
+    </g>
+  </g>
+  
+  <!-- APP ICONS -->
+  <g id="app-icons">
+    <text x="650" y="420" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">APP ICONS</text>
+    
+    <!-- 128px -->
+    <g transform="translate(650, 455)">
+      <rect width="110" height="110" rx="22" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="3"/>
+      <g transform="translate(55, 55)">
+        <path d="M -20 0 Q -23 -12 -20 -20 Q -12 -28 5 -28 Q 22 -28 30 -20 Q 33 -12 30 0 Q 27 12 19 20 L 11 16 Q 7 14 3 16 L -5 20 Q -13 12 -20 0 Z" 
+              fill="url(#paletteBase)" 
+              stroke="#64748b" 
+              stroke-width="2.5"/>
+        <ellipse cx="-4" cy="18" rx="5" ry="6" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+        <circle cx="-8" cy="-8" r="6" fill="#ef4444" stroke="#dc2626" stroke-width="1.5"/>
+        <circle cx="5" cy="-13" r="6" fill="#22c55e" stroke="#16a34a" stroke-width="1.5"/>
+        <circle cx="18" cy="-8" r="6" fill="#3b82f6" stroke="#2563eb" stroke-width="1.5"/>
+        <circle cx="-1" cy="2" r="5.5" fill="#fbbf24" stroke="#f59e0b" stroke-width="1.5"/>
+        <circle cx="11" cy="2" r="5.5" fill="#06b6d4" stroke="#0891b2" stroke-width="1.5"/>
+        <circle cx="5" cy="10" r="5.5" fill="#ec4899" stroke="#db2777" stroke-width="1.5"/>
+      </g>
+      <text x="55" y="180" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">128px</text>
+    </g>
+    
+    <!-- 64px -->
+    <g transform="translate(790, 478)">
+      <rect width="64" height="64" rx="13" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="2"/>
+      <g transform="translate(32, 32)">
+        <path d="M -14 0 Q -16 -8 -14 -14 Q -8 -19 3 -19 Q 14 -19 20 -14 Q 22 -8 20 0 Q 18 8 13 14 L 7 11 Q 4 10 1 11 L -3 14 Q -9 8 -14 0 Z" 
+              fill="url(#paletteBase)" 
+              stroke="#64748b" 
+              stroke-width="2"/>
+        <ellipse cx="-2" cy="12" rx="3.5" ry="4.5" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+        <circle cx="-6" cy="-6" r="4.5" fill="#ef4444"/>
+        <circle cx="3" cy="-9" r="4.5" fill="#22c55e"/>
+        <circle cx="12" cy="-6" r="4.5" fill="#3b82f6"/>
+        <circle cx="-1" cy="1" r="4" fill="#fbbf24"/>
+        <circle cx="7" cy="1" r="4" fill="#06b6d4"/>
+        <circle cx="3" cy="7" r="4" fill="#ec4899"/>
+      </g>
+      <text x="32" y="80" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">64px</text>
+    </g>
+    
+    <!-- 32px -->
+    <g transform="translate(884, 510)">
+      <rect width="32" height="32" rx="7" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="1"/>
+      <g transform="translate(16, 16)">
+        <path d="M -8 0 Q -9 -5 -8 -8 Q -4 -11 1 -11 Q 6 -11 9 -8 Q 10 -5 9 0 Q 8 5 6 8 L 3 6 Q 2 5 1 6 L -1 8 Q -4 5 -8 0 Z" 
+              fill="url(#paletteBase)" 
+              stroke="#64748b" 
+              stroke-width="1"/>
+        <ellipse cx="-1" cy="7" rx="2" ry="2.5" fill="#0f172a"/>
+        <circle cx="-4" cy="-4" r="2.5" fill="#ef4444"/>
+        <circle cx="1" cy="-5.5" r="2.5" fill="#22c55e"/>
+        <circle cx="6" cy="-4" r="2.5" fill="#3b82f6"/>
+        <circle cx="-1" cy="0" r="2" fill="#fbbf24"/>
+        <circle cx="3" cy="0" r="2" fill="#06b6d4"/>
+        <circle cx="1" cy="3" r="2" fill="#ec4899"/>
+      </g>
+      <text x="16" y="48" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">32px</text>
+    </g>
+  </g>
+  
+  <!-- MONOCHROME -->
+  <g id="monochrome">
+    <text x="650" y="600" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">MONOCHROME</text>
+    
+    <!-- Light -->
+    <g transform="translate(650, 635)">
+      <rect width="130" height="85" rx="8" fill="#0f172a"/>
+      <g transform="translate(65, 42)">
+        <path d="M -16 0 Q -18 -9 -16 -16 Q -9 -22 2 -22 Q 13 -22 20 -16 Q 22 -9 20 0 Q 18 9 13 15 L 7 12 Q 4 11 1 12 L -4 15 Q -9 9 -16 0 Z" 
+              fill="none" 
+              stroke="#f8fafc" 
+              stroke-width="2"/>
+        <ellipse cx="-3" cy="13" rx="4" ry="5" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+        <circle cx="-6" cy="-6" r="4.5" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+        <circle cx="2" cy="-10" r="4.5" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+        <circle cx="10" cy="-6" r="4.5" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+        <circle cx="-1" cy="1" r="4" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+        <circle cx="6" cy="1" r="4" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+        <circle cx="2" cy="6" r="4" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Light</text>
+    </g>
+    
+    <!-- Dark -->
+    <g transform="translate(810, 635)">
+      <rect width="130" height="85" rx="8" fill="#f8fafc"/>
+      <g transform="translate(65, 42)">
+        <path d="M -16 0 Q -18 -9 -16 -16 Q -9 -22 2 -22 Q 13 -22 20 -16 Q 22 -9 20 0 Q 18 9 13 15 L 7 12 Q 4 11 1 12 L -4 15 Q -9 9 -16 0 Z" 
+              fill="none" 
+              stroke="#0f172a" 
+              stroke-width="2"/>
+        <ellipse cx="-3" cy="13" rx="4" ry="5" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+        <circle cx="-6" cy="-6" r="4.5" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+        <circle cx="2" cy="-10" r="4.5" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+        <circle cx="10" cy="-6" r="4.5" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+        <circle cx="-1" cy="1" r="4" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+        <circle cx="6" cy="1" r="4" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+        <circle cx="2" cy="6" r="4" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Dark</text>
+    </g>
+    
+    <!-- Single Color -->
+    <g transform="translate(970, 635)">
+      <rect width="130" height="85" rx="8" fill="url(#singleColorBg)"/>
+      <g transform="translate(65, 42)">
+        <path d="M -16 0 Q -18 -9 -16 -16 Q -9 -22 2 -22 Q 13 -22 20 -16 Q 22 -9 20 0 Q 18 9 13 15 L 7 12 Q 4 11 1 12 L -4 15 Q -9 9 -16 0 Z" 
+              fill="#1e293b" 
+              stroke="#ffffff" 
+              stroke-width="2"/>
+        <ellipse cx="-3" cy="13" rx="4" ry="5" fill="#0f172a" stroke="#ffffff" stroke-width="1.5"/>
+        <circle cx="-6" cy="-6" r="4.5" fill="#f8fafc"/>
+        <circle cx="2" cy="-10" r="4.5" fill="#e2e8f0"/>
+        <circle cx="10" cy="-6" r="4.5" fill="#cbd5e1"/>
+        <circle cx="-1" cy="1" r="4" fill="#94a3b8"/>
+        <circle cx="6" cy="1" r="4" fill="#64748b"/>
+        <circle cx="2" cy="6" r="4" fill="#475569"/>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#f8fafc" text-anchor="middle">Single</text>
+    </g>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <!-- Palette base -->
+    <linearGradient id="paletteBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#334155;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Colorful text gradient -->
+    <linearGradient id="colorfulText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Bridge gradient -->
+    <linearGradient id="bridgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Icon backgrounds -->
+    <linearGradient id="iconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="iconStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#22c55e;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Rainbow background -->
+    <linearGradient id="rainbowBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:0.3" />
+    </linearGradient>
+    
+    <linearGradient id="rainbowStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="16%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="33%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="66%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="83%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Monochrome gradient -->
+    <linearGradient id="monoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#334155;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Warm background -->
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c2d12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9a3412;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Cool background -->
+    <linearGradient id="coolBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#164e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#155e75;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Single color background -->
+    <linearGradient id="singleColorBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#475569;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#334155;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

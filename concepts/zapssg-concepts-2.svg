@@ -1,0 +1,248 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#0a0e1a"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial, sans-serif" font-size="24" fill="#64748b" text-anchor="middle" font-weight="600">ZAP - Hybrid Concept Design</text>
+  <text x="500" y="65" font-family="Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Combining Energy Pulse + Minimal Mark + Geometric Speed</text>
+  
+  <!-- PRIMARY LOGO - Full Horizontal Version -->
+  <g id="primary-logo">
+    <text x="100" y="115" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">PRIMARY LOGO</text>
+    
+    <g transform="translate(200, 180)">
+      <!-- Rounded square container with gradient (from Concept 4) -->
+      <rect x="0" y="0" width="90" height="90" rx="18" 
+            fill="url(#mainGradient)" 
+            stroke="url(#strokeGradient)" 
+            stroke-width="2.5"/>
+      
+      <!-- Energy pulse rings (from Concept 5) -->
+      <circle cx="45" cy="45" r="38" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.2"/>
+      <circle cx="45" cy="45" r="32" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.3"/>
+      
+      <!-- Geometric Z with speed lines (from Concept 2) -->
+      <g transform="translate(20, 22)">
+        <!-- Speed lines behind -->
+        <line x1="-8" y1="15" x2="5" y2="15" stroke="#3b82f6" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+        <line x1="-12" y1="25" x2="5" y2="25" stroke="#3b82f6" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+        <line x1="-8" y1="35" x2="5" y2="35" stroke="#3b82f6" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+        
+        <!-- Bold Z shape -->
+        <path d="M 5 10 L 45 10 L 15 40 L 10 40 L 40 10 M 10 40 L 50 40" 
+              fill="none" 
+              stroke="#f8fafc" 
+              stroke-width="6" 
+              stroke-linecap="round" 
+              stroke-linejoin="round"/>
+        
+        <!-- Energy accent on Z -->
+        <circle cx="47" cy="12" r="3" fill="#3b82f6" opacity="0.8">
+          <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+      
+      <!-- Typography -->
+      <text x="110" y="58" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="52" fill="#f8fafc" font-weight="700" letter-spacing="2">ZAP</text>
+      <text x="110" y="73" font-family="Arial, sans-serif" font-size="11" fill="#64748b" letter-spacing="3" font-weight="500">ZERO BUILD COST</text>
+    </g>
+  </g>
+  
+  <!-- ICON ONLY VERSION -->
+  <g id="icon-only">
+    <text x="100" y="330" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">ICON MARK</text>
+    
+    <g transform="translate(200, 370)">
+      <!-- Main icon -->
+      <rect x="0" y="0" width="100" height="100" rx="20" 
+            fill="url(#mainGradient)" 
+            stroke="url(#strokeGradient)" 
+            stroke-width="3"/>
+      
+      <!-- Pulse rings -->
+      <circle cx="50" cy="50" r="42" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.25"/>
+      <circle cx="50" cy="50" r="35" fill="none" stroke="#3b82f6" stroke-width="1.8" opacity="0.35"/>
+      
+      <!-- Speed lines -->
+      <line x1="12" y1="35" x2="25" y2="35" stroke="#3b82f6" stroke-width="2.5" opacity="0.4" stroke-linecap="round"/>
+      <line x1="8" y1="50" x2="25" y2="50" stroke="#3b82f6" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+      <line x1="12" y1="65" x2="25" y2="65" stroke="#3b82f6" stroke-width="2.5" opacity="0.4" stroke-linecap="round"/>
+      
+      <!-- Z shape -->
+      <path d="M 25 30 L 75 30 L 35 70 L 25 70 L 65 30 M 25 70 L 75 70" 
+            fill="none" 
+            stroke="#f8fafc" 
+            stroke-width="7" 
+            stroke-linecap="round" 
+            stroke-linejoin="round"/>
+      
+      <!-- Glow point -->
+      <circle cx="77" cy="32" r="4" fill="#3b82f6">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  
+  <!-- VARIATIONS -->
+  <g id="variations">
+    <text x="550" y="115" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">COLOR VARIATIONS</text>
+    
+    <!-- Variation 1: Blue Energy -->
+    <g transform="translate(550, 155)">
+      <rect x="0" y="0" width="80" height="80" rx="16" fill="url(#blueGrad)" stroke="#3b82f6" stroke-width="2"/>
+      <circle cx="40" cy="40" r="32" fill="none" stroke="#60a5fa" stroke-width="1.5" opacity="0.3"/>
+      <line x1="8" y1="30" x2="18" y2="30" stroke="#60a5fa" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+      <line x1="5" y1="40" x2="18" y2="40" stroke="#60a5fa" stroke-width="2.5" opacity="0.6" stroke-linecap="round"/>
+      <line x1="8" y1="50" x2="18" y2="50" stroke="#60a5fa" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+      <path d="M 20 25 L 60 25 L 30 55 L 22 55 L 52 25 M 22 55 L 60 55" 
+            fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    
+    <!-- Variation 2: Emerald Energy -->
+    <g transform="translate(660, 155)">
+      <rect x="0" y="0" width="80" height="80" rx="16" fill="url(#emeraldGrad)" stroke="#10b981" stroke-width="2"/>
+      <circle cx="40" cy="40" r="32" fill="none" stroke="#34d399" stroke-width="1.5" opacity="0.3"/>
+      <line x1="8" y1="30" x2="18" y2="30" stroke="#34d399" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+      <line x1="5" y1="40" x2="18" y2="40" stroke="#34d399" stroke-width="2.5" opacity="0.6" stroke-linecap="round"/>
+      <line x1="8" y1="50" x2="18" y2="50" stroke="#34d399" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+      <path d="M 20 25 L 60 25 L 30 55 L 22 55 L 52 25 M 22 55 L 60 55" 
+            fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    
+    <!-- Variation 3: Purple Power -->
+    <g transform="translate(770, 155)">
+      <rect x="0" y="0" width="80" height="80" rx="16" fill="url(#purpleGrad)" stroke="#8b5cf6" stroke-width="2"/>
+      <circle cx="40" cy="40" r="32" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.3"/>
+      <line x1="8" y1="30" x2="18" y2="30" stroke="#a78bfa" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+      <line x1="5" y1="40" x2="18" y2="40" stroke="#a78bfa" stroke-width="2.5" opacity="0.6" stroke-linecap="round"/>
+      <line x1="8" y1="50" x2="18" y2="50" stroke="#a78bfa" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+      <path d="M 20 25 L 60 25 L 30 55 L 22 55 L 52 25 M 22 55 L 60 55" 
+            fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    
+    <text x="550" y="265" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Blue (Primary)</text>
+    <text x="660" y="265" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Emerald</text>
+    <text x="770" y="265" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Purple</text>
+  </g>
+  
+  <!-- APP ICONS -->
+  <g id="app-icons">
+    <text x="550" y="310" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">APP ICONS (Multiple Sizes)</text>
+    
+    <!-- 128px -->
+    <g transform="translate(550, 340)">
+      <rect width="100" height="100" rx="20" fill="url(#mainGradient)" stroke="url(#strokeGradient)" stroke-width="2.5"/>
+      <circle cx="50" cy="50" r="42" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.2"/>
+      <circle cx="50" cy="50" r="35" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.3"/>
+      <line x1="12" y1="35" x2="25" y2="35" stroke="#3b82f6" stroke-width="2.5" opacity="0.4" stroke-linecap="round"/>
+      <line x1="8" y1="50" x2="25" y2="50" stroke="#3b82f6" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+      <line x1="12" y1="65" x2="25" y2="65" stroke="#3b82f6" stroke-width="2.5" opacity="0.4" stroke-linecap="round"/>
+      <path d="M 25 30 L 75 30 L 35 70 L 25 70 L 65 30 M 25 70 L 75 70" 
+            fill="none" stroke="#f8fafc" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="50" y="120" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">128px</text>
+    </g>
+    
+    <!-- 64px -->
+    <g transform="translate(680, 358)">
+      <rect width="64" height="64" rx="13" fill="url(#mainGradient)" stroke="url(#strokeGradient)" stroke-width="2"/>
+      <circle cx="32" cy="32" r="27" fill="none" stroke="#3b82f6" stroke-width="1.2" opacity="0.25"/>
+      <line x1="8" y1="22" x2="16" y2="22" stroke="#3b82f6" stroke-width="1.8" opacity="0.4" stroke-linecap="round"/>
+      <line x1="5" y1="32" x2="16" y2="32" stroke="#3b82f6" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+      <line x1="8" y1="42" x2="16" y2="42" stroke="#3b82f6" stroke-width="1.8" opacity="0.4" stroke-linecap="round"/>
+      <path d="M 16 19 L 48 19 L 22 45 L 16 45 L 42 19 M 16 45 L 48 45" 
+            fill="none" stroke="#f8fafc" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="32" y="82" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">64px</text>
+    </g>
+    
+    <!-- 32px Favicon -->
+    <g transform="translate(774, 390)">
+      <rect width="32" height="32" rx="6" fill="url(#mainGradient)" stroke="url(#strokeGradient)" stroke-width="1"/>
+      <circle cx="16" cy="16" r="13" fill="none" stroke="#3b82f6" stroke-width="0.8" opacity="0.3"/>
+      <line x1="4" y1="11" x2="8" y2="11" stroke="#3b82f6" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
+      <line x1="2" y1="16" x2="8" y2="16" stroke="#3b82f6" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+      <line x1="4" y1="21" x2="8" y2="21" stroke="#3b82f6" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
+      <path d="M 8 9 L 24 9 L 11 23 L 8 23 L 21 9 M 8 23 L 24 23" 
+            fill="none" stroke="#f8fafc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="16" y="48" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">32px</text>
+    </g>
+  </g>
+  
+  <!-- MONOCHROME VERSIONS -->
+  <g id="monochrome">
+    <text x="100" y="520" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">MONOCHROME VERSIONS</text>
+    
+    <!-- Light on Dark -->
+    <g transform="translate(100, 555)">
+      <rect width="120" height="80" rx="8" fill="#0f172a"/>
+      <text x="60" y="95" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Light on Dark</text>
+      <g transform="translate(25, 15)">
+        <rect x="0" y="0" width="70" height="50" rx="10" fill="none" stroke="#f8fafc" stroke-width="2"/>
+        <circle cx="35" cy="25" r="22" fill="none" stroke="#f8fafc" stroke-width="1" opacity="0.2"/>
+        <line x1="8" y1="18" x2="15" y2="18" stroke="#f8fafc" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+        <line x1="5" y1="25" x2="15" y2="25" stroke="#f8fafc" stroke-width="1.8" opacity="0.4" stroke-linecap="round"/>
+        <line x1="8" y1="32" x2="15" y2="32" stroke="#f8fafc" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+        <path d="M 15 15 L 55 15 L 25 35 L 18 35 L 48 15 M 18 35 L 55 35" 
+              fill="none" stroke="#f8fafc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    
+    <!-- Dark on Light -->
+    <g transform="translate(250, 555)">
+      <rect width="120" height="80" rx="8" fill="#f8fafc"/>
+      <text x="60" y="95" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Dark on Light</text>
+      <g transform="translate(25, 15)">
+        <rect x="0" y="0" width="70" height="50" rx="10" fill="none" stroke="#0f172a" stroke-width="2"/>
+        <circle cx="35" cy="25" r="22" fill="none" stroke="#0f172a" stroke-width="1" opacity="0.15"/>
+        <line x1="8" y1="18" x2="15" y2="18" stroke="#0f172a" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+        <line x1="5" y1="25" x2="15" y2="25" stroke="#0f172a" stroke-width="1.8" opacity="0.4" stroke-linecap="round"/>
+        <line x1="8" y1="32" x2="15" y2="32" stroke="#0f172a" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+        <path d="M 15 15 L 55 15 L 25 35 L 18 35 L 48 15 M 18 35 L 55 35" 
+              fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    
+    <!-- Single Color -->
+    <g transform="translate(400, 555)">
+      <rect width="120" height="80" rx="8" fill="#1e293b"/>
+      <text x="60" y="95" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Single Color</text>
+      <g transform="translate(25, 15)">
+        <rect x="0" y="0" width="70" height="50" rx="10" fill="#3b82f6"/>
+        <path d="M 15 15 L 55 15 L 25 35 L 18 35 L 48 15 M 18 35 L 55 35" 
+              fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <!-- Main gradient (dark with subtle blue) -->
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Stroke gradient (blue accent) -->
+    <linearGradient id="strokeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Blue variation -->
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Emerald variation -->
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#064e3b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#065f46;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Purple variation -->
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5b21b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6d28d9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

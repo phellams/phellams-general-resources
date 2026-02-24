@@ -1,0 +1,333 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#0a0e1a"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="24" fill="#64748b" text-anchor="middle" font-weight="600">PsChef - Culinary CLI Logo Design</text>
+  <text x="600" y="65" font-family="Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Culinary Scaffolding and Orchestration for PowerShell</text>
+  
+  <!-- PRIMARY LOGO - Full Horizontal Version -->
+  <g id="primary-logo">
+    <text x="100" y="115" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">PRIMARY LOGO</text>
+    
+    <g transform="translate(220, 180)">
+      <!-- Chef Hat Icon Container -->
+      <g id="chef-hat-icon">
+        <!-- Hat base circle/container -->
+        <ellipse cx="45" cy="75" rx="42" ry="12" fill="url(#hatBase)" stroke="#e879f9" stroke-width="2"/>
+        
+        <!-- Hat puffy top -->
+        <path d="M 15 70 Q 10 50 20 35 Q 25 20 45 18 Q 65 20 70 35 Q 80 50 75 70 Z" 
+              fill="url(#hatTop)" 
+              stroke="#e879f9" 
+              stroke-width="2.5"/>
+        
+        <!-- PowerShell prompt symbol inside -->
+        <text x="30" y="58" font-family="Consolas, Courier New, monospace" font-size="32" fill="#22d3ee" font-weight="bold">&gt;</text>
+        
+        <!-- Decorative accent dots (representing ingredients/modules) -->
+        <circle cx="25" cy="45" r="3" fill="#fb923c" opacity="0.8">
+          <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="65" cy="45" r="3" fill="#34d399" opacity="0.8">
+          <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="45" cy="35" r="3" fill="#fbbf24" opacity="0.8">
+          <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+      
+      <!-- Typography -->
+      <g transform="translate(110, 0)">
+        <text x="0" y="52" font-family="Consolas, Courier New, monospace" font-size="48" fill="#f8fafc" font-weight="bold" letter-spacing="1">Ps</text>
+        <text x="68" y="52" font-family="Consolas, Courier New, monospace" font-size="48" fill="#e879f9" font-weight="bold" letter-spacing="1">Chef</text>
+        <text x="0" y="68" font-family="Arial, sans-serif" font-size="11" fill="#64748b" letter-spacing="2.5" font-weight="500">CULINARY CLI</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- ICON MARK VERSIONS -->
+  <g id="icon-mark">
+    <text x="100" y="330" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">ICON MARK</text>
+    
+    <g transform="translate(200, 370)">
+      <!-- Rounded square container -->
+      <rect x="0" y="0" width="110" height="110" rx="22" 
+            fill="url(#iconBg)" 
+            stroke="url(#iconStroke)" 
+            stroke-width="3"/>
+      
+      <!-- Chef hat -->
+      <ellipse cx="55" cy="80" rx="38" ry="11" fill="url(#hatBase)" stroke="#e879f9" stroke-width="2"/>
+      <path d="M 23 75 Q 18 58 27 45 Q 32 32 55 30 Q 78 32 83 45 Q 92 58 87 75 Z" 
+            fill="url(#hatTop)" 
+            stroke="#e879f9" 
+            stroke-width="2.5"/>
+      
+      <!-- PowerShell prompt -->
+      <text x="40" y="65" font-family="Consolas, monospace" font-size="28" fill="#22d3ee" font-weight="bold">&gt;</text>
+      
+      <!-- Ingredient dots -->
+      <circle cx="32" cy="52" r="3.5" fill="#fb923c"/>
+      <circle cx="78" cy="52" r="3.5" fill="#34d399"/>
+      <circle cx="55" cy="42" r="3.5" fill="#fbbf24"/>
+    </g>
+  </g>
+  
+  <!-- ALTERNATIVE CONCEPT: Terminal Window Style -->
+  <g id="terminal-concept">
+    <text x="650" y="115" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">ALTERNATIVE: TERMINAL WINDOW</text>
+    
+    <g transform="translate(650, 150)">
+      <!-- Terminal window -->
+      <rect x="0" y="0" width="380" height="180" rx="12" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+      
+      <!-- Terminal header bar -->
+      <rect x="0" y="0" width="380" height="35" rx="12" fill="#334155"/>
+      <rect x="0" y="23" width="380" height="12" fill="#334155"/>
+      
+      <!-- Traffic light buttons -->
+      <circle cx="18" cy="17" r="6" fill="#ef4444"/>
+      <circle cx="38" cy="17" r="6" fill="#fbbf24"/>
+      <circle cx="58" cy="17" r="6" fill="#22c55e"/>
+      
+      <!-- Terminal title -->
+      <text x="190" y="24" font-family="Consolas, monospace" font-size="13" fill="#94a3b8" text-anchor="middle" font-weight="600">PsChef CLI</text>
+      
+      <!-- Terminal content -->
+      <g transform="translate(20, 55)">
+        <!-- Prompt line 1 -->
+        <text x="0" y="20" font-family="Consolas, monospace" font-size="14" fill="#22d3ee" font-weight="600">PS&gt;</text>
+        <text x="40" y="20" font-family="Consolas, monospace" font-size="14" fill="#e879f9">pschef</text>
+        <text x="105" y="20" font-family="Consolas, monospace" font-size="14" fill="#94a3b8">new</text>
+        <text x="145" y="20" font-family="Consolas, monospace" font-size="14" fill="#fbbf24">--recipe</text>
+        <text x="215" y="20" font-family="Consolas, monospace" font-size="14" fill="#34d399">"api"</text>
+        
+        <!-- Chef hat icon small -->
+        <g transform="translate(280, 0)">
+          <ellipse cx="20" cy="28" rx="18" ry="5" fill="url(#hatBase)" opacity="0.6"/>
+          <path d="M 8 26 Q 6 18 10 12 Q 12 8 20 7 Q 28 8 30 12 Q 34 18 32 26 Z" 
+                fill="url(#hatTop)" 
+                opacity="0.8"/>
+          <text x="15" y="21" font-family="Consolas, monospace" font-size="11" fill="#22d3ee" font-weight="bold">&gt;</text>
+        </g>
+        
+        <!-- Output lines with cooking metaphors -->
+        <text x="0" y="50" font-family="Consolas, monospace" font-size="12" fill="#34d399">✓</text>
+        <text x="20" y="50" font-family="Consolas, monospace" font-size="12" fill="#94a3b8">Prepping ingredients...</text>
+        
+        <text x="0" y="70" font-family="Consolas, monospace" font-size="12" fill="#34d399">✓</text>
+        <text x="20" y="70" font-family="Consolas, monospace" font-size="12" fill="#94a3b8">Routing kitchen workflow...</text>
+        
+        <text x="0" y="90" font-family="Consolas, monospace" font-size="12" fill="#34d399">✓</text>
+        <text x="20" y="90" font-family="Consolas, monospace" font-size="12" fill="#94a3b8">Plating project structure...</text>
+        
+        <!-- Cursor blink -->
+        <rect x="20" y="105" width="8" height="14" fill="#22d3ee">
+          <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+  </g>
+  
+  <!-- COLOR VARIATIONS -->
+  <g id="variations">
+    <text x="100" y="540" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">COLOR VARIATIONS</text>
+    
+    <!-- PowerShell Blue -->
+    <g transform="translate(100, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#psBlue)" stroke="#3b82f6" stroke-width="2.5"/>
+      <ellipse cx="45" cy="72" rx="35" ry="10" fill="#1e3a8a" opacity="0.3"/>
+      <path d="M 15 68 Q 11 54 19 43 Q 23 33 45 31 Q 67 33 71 43 Q 79 54 75 68 Z" 
+            fill="#dbeafe" 
+            opacity="0.9"/>
+      <text x="32" y="60" font-family="Consolas, monospace" font-size="26" fill="#3b82f6" font-weight="bold">&gt;</text>
+      <circle cx="24" cy="48" r="3" fill="#60a5fa"/>
+      <circle cx="66" cy="48" r="3" fill="#93c5fd"/>
+      <circle cx="45" cy="40" r="3" fill="#bfdbfe"/>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">PowerShell</text>
+    </g>
+    
+    <!-- Fuchsia Chef -->
+    <g transform="translate(220, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#fuchsiaChef)" stroke="#e879f9" stroke-width="2.5"/>
+      <ellipse cx="45" cy="72" rx="35" ry="10" fill="url(#hatBase)" stroke="#e879f9" stroke-width="1.5"/>
+      <path d="M 15 68 Q 11 54 19 43 Q 23 33 45 31 Q 67 33 71 43 Q 79 54 75 68 Z" 
+            fill="url(#hatTop)" 
+            stroke="#e879f9" 
+            stroke-width="2"/>
+      <text x="32" y="60" font-family="Consolas, monospace" font-size="26" fill="#22d3ee" font-weight="bold">&gt;</text>
+      <circle cx="24" cy="48" r="3" fill="#fb923c"/>
+      <circle cx="66" cy="48" r="3" fill="#34d399"/>
+      <circle cx="45" cy="40" r="3" fill="#fbbf24"/>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Fuchsia</text>
+    </g>
+    
+    <!-- Emerald Kitchen -->
+    <g transform="translate(340, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#emeraldKitchen)" stroke="#10b981" stroke-width="2.5"/>
+      <ellipse cx="45" cy="72" rx="35" ry="10" fill="#064e3b" opacity="0.4"/>
+      <path d="M 15 68 Q 11 54 19 43 Q 23 33 45 31 Q 67 33 71 43 Q 79 54 75 68 Z" 
+            fill="#d1fae5" 
+            opacity="0.95"/>
+      <text x="32" y="60" font-family="Consolas, monospace" font-size="26" fill="#059669" font-weight="bold">&gt;</text>
+      <circle cx="24" cy="48" r="3" fill="#34d399"/>
+      <circle cx="66" cy="48" r="3" fill="#6ee7b7"/>
+      <circle cx="45" cy="40" r="3" fill="#a7f3d0"/>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Emerald</text>
+    </g>
+    
+    <!-- Amber Recipe -->
+    <g transform="translate(460, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#amberRecipe)" stroke="#f59e0b" stroke-width="2.5"/>
+      <ellipse cx="45" cy="72" rx="35" ry="10" fill="#78350f" opacity="0.3"/>
+      <path d="M 15 68 Q 11 54 19 43 Q 23 33 45 31 Q 67 33 71 43 Q 79 54 75 68 Z" 
+            fill="#fef3c7" 
+            opacity="0.95"/>
+      <text x="32" y="60" font-family="Consolas, monospace" font-size="26" fill="#d97706" font-weight="bold">&gt;</text>
+      <circle cx="24" cy="48" r="3" fill="#fbbf24"/>
+      <circle cx="66" cy="48" r="3" fill="#fcd34d"/>
+      <circle cx="45" cy="40" r="3" fill="#fde68a"/>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Amber</text>
+    </g>
+  </g>
+  
+  <!-- APP ICONS SHOWCASE -->
+  <g id="app-icons">
+    <text x="650" y="380" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">APP ICONS (Multi-Size)</text>
+    
+    <!-- 128px -->
+    <g transform="translate(650, 415)">
+      <rect width="110" height="110" rx="22" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="3"/>
+      <ellipse cx="55" cy="80" rx="38" ry="11" fill="url(#hatBase)" stroke="#e879f9" stroke-width="2"/>
+      <path d="M 23 75 Q 18 58 27 45 Q 32 32 55 30 Q 78 32 83 45 Q 92 58 87 75 Z" 
+            fill="url(#hatTop)" 
+            stroke="#e879f9" 
+            stroke-width="2.5"/>
+      <text x="40" y="65" font-family="Consolas, monospace" font-size="28" fill="#22d3ee" font-weight="bold">&gt;</text>
+      <circle cx="32" cy="52" r="3.5" fill="#fb923c"/>
+      <circle cx="78" cy="52" r="3.5" fill="#34d399"/>
+      <circle cx="55" cy="42" r="3.5" fill="#fbbf24"/>
+      <text x="55" y="140" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">128px</text>
+    </g>
+    
+    <!-- 64px -->
+    <g transform="translate(790, 438)">
+      <rect width="64" height="64" rx="13" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="2"/>
+      <ellipse cx="32" cy="50" rx="24" ry="7" fill="url(#hatBase)" stroke="#e879f9" stroke-width="1.5"/>
+      <path d="M 14 47 Q 11 38 16 30 Q 19 24 32 23 Q 45 24 48 30 Q 53 38 50 47 Z" 
+            fill="url(#hatTop)" 
+            stroke="#e879f9" 
+            stroke-width="2"/>
+      <text x="24" y="41" font-family="Consolas, monospace" font-size="17" fill="#22d3ee" font-weight="bold">&gt;</text>
+      <circle cx="19" cy="33" r="2" fill="#fb923c"/>
+      <circle cx="45" cy="33" r="2" fill="#34d399"/>
+      <circle cx="32" cy="28" r="2" fill="#fbbf24"/>
+      <text x="32" y="80" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">64px</text>
+    </g>
+    
+    <!-- 32px Favicon -->
+    <g transform="translate(884, 470)">
+      <rect width="32" height="32" rx="7" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="1"/>
+      <ellipse cx="16" cy="25" rx="12" ry="3.5" fill="url(#hatBase)"/>
+      <path d="M 7 23 Q 6 19 8 16 Q 10 13 16 12 Q 22 13 24 16 Q 26 19 25 23 Z" 
+            fill="url(#hatTop)" 
+            stroke="#e879f9" 
+            stroke-width="1"/>
+      <text x="12" y="21" font-family="Consolas, monospace" font-size="9" fill="#22d3ee" font-weight="bold">&gt;</text>
+      <text x="16" y="48" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">32px</text>
+    </g>
+  </g>
+  
+  <!-- MONOCHROME VERSIONS -->
+  <g id="monochrome">
+    <text x="650" y="560" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">MONOCHROME</text>
+    
+    <!-- Light on Dark -->
+    <g transform="translate(650, 595)">
+      <rect width="130" height="85" rx="8" fill="#0f172a"/>
+      <g transform="translate(30, 15)">
+        <ellipse cx="35" cy="55" rx="32" ry="9" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+        <path d="M 10 52 Q 7 40 14 30 Q 18 22 35 20 Q 52 22 56 30 Q 63 40 60 52 Z" 
+              fill="none" 
+              stroke="#f8fafc" 
+              stroke-width="2"/>
+        <text x="24" y="45" font-family="Consolas, monospace" font-size="22" fill="#f8fafc" font-weight="bold">&gt;</text>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Light on Dark</text>
+    </g>
+    
+    <!-- Dark on Light -->
+    <g transform="translate(810, 595)">
+      <rect width="130" height="85" rx="8" fill="#f8fafc"/>
+      <g transform="translate(30, 15)">
+        <ellipse cx="35" cy="55" rx="32" ry="9" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+        <path d="M 10 52 Q 7 40 14 30 Q 18 22 35 20 Q 52 22 56 30 Q 63 40 60 52 Z" 
+              fill="none" 
+              stroke="#0f172a" 
+              stroke-width="2"/>
+        <text x="24" y="45" font-family="Consolas, monospace" font-size="22" fill="#0f172a" font-weight="bold">&gt;</text>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Dark on Light</text>
+    </g>
+    
+    <!-- Single Color -->
+    <g transform="translate(970, 595)">
+      <rect width="130" height="85" rx="8" fill="#e879f9"/>
+      <g transform="translate(30, 15)">
+        <ellipse cx="35" cy="55" rx="32" ry="9" fill="#a21caf" opacity="0.3"/>
+        <path d="M 10 52 Q 7 40 14 30 Q 18 22 35 20 Q 52 22 56 30 Q 63 40 60 52 Z" 
+              fill="#ffffff" 
+              opacity="0.95"/>
+        <text x="24" y="45" font-family="Consolas, monospace" font-size="22" fill="#a21caf" font-weight="bold">&gt;</text>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Single Color</text>
+    </g>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <!-- Hat gradients -->
+    <linearGradient id="hatTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fde68a;stop-opacity:0.95" />
+    </linearGradient>
+    
+    <linearGradient id="hatBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Icon background -->
+    <linearGradient id="iconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="iconStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e879f9;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#c026d3;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Color variations -->
+    <linearGradient id="psBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="fuchsiaChef" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#701a75;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#86198f;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="emeraldKitchen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#064e3b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#065f46;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="amberRecipe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#78350f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#92400e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

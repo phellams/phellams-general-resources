@@ -1,0 +1,236 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#0a0e1a"/>
+
+  <!-- Titles -->
+  <text x="600" y="36" font-family="Arial, sans-serif" font-size="21" fill="#64748b" text-anchor="middle" font-weight="600">bucman — S3-Compatible PowerShell Storage Module</text>
+  <text x="600" y="57" font-family="Arial, sans-serif" font-size="12" fill="#475569" text-anchor="middle">Dependency-Free • Native SigV4 • Multi-Cloud • Unified Profiles</text>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- CONCEPT A  —  Bucket + PS                            -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <text x="80" y="95" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" font-weight="600">CONCEPT A — Bucket + PowerShell</text>
+
+  <g transform="translate(80, 110)">
+    <!-- bucket body -->
+    <path d="M 18 28 L 12 82 Q 12 94 52 94 Q 92 94 92 82 L 86 28 Z" fill="url(#bucketBody)" stroke="#38bdf8" stroke-width="2.5"/>
+    <!-- bucket rim -->
+    <ellipse cx="52" cy="28" rx="34" ry="10" fill="url(#bucketRim)" stroke="#38bdf8" stroke-width="2.5"/>
+    <!-- inner shadow -->
+    <ellipse cx="52" cy="28" rx="26" ry="7" fill="#0a0e1a" opacity="0.45"/>
+    <!-- handle -->
+    <path d="M 22 38 Q 22 12 52 12 Q 82 12 82 38" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+    <!-- PS text on face -->
+    <text x="52" y="72" font-family="Consolas, monospace" font-size="28" fill="#38bdf8" text-anchor="middle" font-weight="bold">PS</text>
+
+    <!-- cloud badges -->
+    <!-- AWS -->
+    <circle cx="100" cy="22" r="8" fill="#ff9900" stroke="#ffb347" stroke-width="1.5"/>
+    <text x="100" y="26" font-family="Arial, sans-serif" font-size="6" fill="#0a0e1a" text-anchor="middle" font-weight="bold">AWS</text>
+    <!-- R2 -->
+    <circle cx="4" cy="22" r="8" fill="#f6821f" stroke="#fb923c" stroke-width="1.5"/>
+    <text x="4" y="26" font-family="Arial, sans-serif" font-size="6.5" fill="#0a0e1a" text-anchor="middle" font-weight="bold">R2</text>
+    <!-- GCS -->
+    <circle cx="100" cy="74" r="8" fill="#4285f4" stroke="#60a5fa" stroke-width="1.5"/>
+    <text x="100" y="78" font-family="Arial, sans-serif" font-size="5.5" fill="#ffffff" text-anchor="middle" font-weight="bold">GCS</text>
+    <!-- MinIO -->
+    <circle cx="4" cy="74" r="8" fill="#c72c48" stroke="#f43f5e" stroke-width="1.5"/>
+    <text x="4" y="78" font-family="Arial, sans-serif" font-size="5" fill="#ffffff" text-anchor="middle" font-weight="bold">MIO</text>
+  </g>
+
+  <!-- Concept A type -->
+  <g transform="translate(210, 133)">
+    <text x="0" y="42" font-family="Consolas, Courier New, monospace" font-size="54" fill="#f8fafc" font-weight="700">buc<tspan fill="#38bdf8">man</tspan></text>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="10" fill="#475569" letter-spacing="2.5">S3-COMPATIBLE POWERSHELL STORAGE MODULE</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- CONCEPT B  —  Multi-Cloud Mesh                       -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <text x="80" y="270" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" font-weight="600">CONCEPT B — Unified Multi-Cloud Mesh</text>
+
+  <g transform="translate(80, 288)">
+    <!-- spokes -->
+    <line x1="52" y1="52" x2="52" y2="14"  stroke="#38bdf8" stroke-width="1.5" opacity="0.35" stroke-dasharray="3,3"/>
+    <line x1="52" y1="52" x2="52" y2="90"  stroke="#38bdf8" stroke-width="1.5" opacity="0.35" stroke-dasharray="3,3"/>
+    <line x1="52" y1="52" x2="14" y2="52"  stroke="#38bdf8" stroke-width="1.5" opacity="0.35" stroke-dasharray="3,3"/>
+    <line x1="52" y1="52" x2="90" y2="52"  stroke="#38bdf8" stroke-width="1.5" opacity="0.35" stroke-dasharray="3,3"/>
+
+    <!-- cloud nodes -->
+    <rect x="30" y="-4"  width="44" height="18" rx="5" fill="#1a1200" stroke="#ff9900" stroke-width="2"/>
+    <text x="52" y="9"   font-family="Arial, sans-serif" font-size="9" fill="#ff9900" text-anchor="middle" font-weight="bold">AWS S3</text>
+
+    <rect x="-22" y="43" width="32" height="18" rx="5" fill="#1a0d00" stroke="#f6821f" stroke-width="2"/>
+    <text x="-6" y="56"  font-family="Arial, sans-serif" font-size="9" fill="#f6821f" text-anchor="middle" font-weight="bold">R2</text>
+
+    <rect x="94" y="43"  width="34" height="18" rx="5" fill="#00061a" stroke="#4285f4" stroke-width="2"/>
+    <text x="111" y="56" font-family="Arial, sans-serif" font-size="9" fill="#4285f4" text-anchor="middle" font-weight="bold">GCS</text>
+
+    <rect x="30" y="90"  width="44" height="18" rx="5" fill="#1a0007" stroke="#c72c48" stroke-width="2"/>
+    <text x="52" y="103" font-family="Arial, sans-serif" font-size="9" fill="#f43f5e" text-anchor="middle" font-weight="bold">MinIO</text>
+
+    <!-- hub -->
+    <circle cx="52" cy="52" r="24" fill="url(#hubGrad)" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="52" y="47" font-family="Consolas, monospace" font-size="12" fill="#e0f2fe" text-anchor="middle" font-weight="bold">buc</text>
+    <text x="52" y="62" font-family="Consolas, monospace" font-size="12" fill="#38bdf8" text-anchor="middle" font-weight="bold">man</text>
+
+    <!-- orbit ring -->
+    <circle cx="52" cy="52" r="38" fill="none" stroke="#38bdf8" stroke-width="0.8" opacity="0.2" stroke-dasharray="4,6">
+      <animateTransform attributeName="transform" type="rotate" from="0 52 52" to="360 52 52" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Concept B type -->
+  <g transform="translate(230, 308)">
+    <text x="0" y="40" font-family="Consolas, Courier New, monospace" font-size="52" fill="#f8fafc" font-weight="700">buc<tspan fill="#38bdf8">man</tspan></text>
+    <text x="0" y="58" font-family="Arial, sans-serif" font-size="10" fill="#475569" letter-spacing="2.5">UNIFIED MULTI-CLOUD PROFILES</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- CONCEPT C  —  SigV4 Lock                             -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <text x="80" y="448" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" font-weight="600">CONCEPT C — Native SigV4 Lock</text>
+
+  <g transform="translate(80, 466)">
+    <!-- shackle -->
+    <path d="M 26 42 L 26 24 Q 26 6 52 6 Q 78 6 78 24 L 78 42" fill="none" stroke="#a855f7" stroke-width="5" stroke-linecap="round"/>
+    <!-- body -->
+    <rect x="10" y="40" width="84" height="60" rx="10" fill="url(#lockBody)" stroke="#a855f7" stroke-width="2.5"/>
+    <!-- SigV4 -->
+    <text x="52" y="66" font-family="Consolas, monospace" font-size="12" fill="#c084fc" text-anchor="middle" font-weight="bold">SigV4</text>
+    <!-- PS prompt -->
+    <text x="52" y="86" font-family="Consolas, monospace" font-size="21" fill="#38bdf8" text-anchor="middle" font-weight="bold">PS&gt;</text>
+    <!-- keyhole -->
+    <circle cx="52" cy="62" r="4" fill="#0a0e1a" stroke="#a855f7" stroke-width="1"/>
+
+    <!-- provider colour bars -->
+    <rect x="10" y="102" width="18" height="6" rx="3" fill="#ff9900"/>
+    <rect x="31" y="102" width="18" height="6" rx="3" fill="#f6821f"/>
+    <rect x="52" y="102" width="18" height="6" rx="3" fill="#4285f4"/>
+    <rect x="73" y="102" width="18" height="6" rx="3" fill="#c72c48"/>
+
+    <!-- sig wave -->
+    <path d="M 10 115 Q 22 108 34 115 Q 46 122 58 115 Q 70 108 82 115 Q 94 122 106 115" fill="none" stroke="#a855f7" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Concept C type -->
+  <g transform="translate(210, 486)">
+    <text x="0" y="40" font-family="Consolas, Courier New, monospace" font-size="52" fill="#f8fafc" font-weight="700">buc<tspan fill="#a855f7">man</tspan></text>
+    <text x="0" y="58" font-family="Arial, sans-serif" font-size="10" fill="#475569" letter-spacing="2.5">NATIVE AWS SIGV4 • NO DEPENDENCIES</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- ICON MARKS                                           -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <text x="80" y="620" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" font-weight="600">ICON MARKS</text>
+
+  <!-- Icon A -->
+  <g transform="translate(80, 636)">
+    <rect width="90" height="90" rx="18" fill="url(#iconDark)" stroke="#38bdf8" stroke-width="2.5"/>
+    <g transform="translate(45, 50)">
+      <path d="M -22 -12 L -27 28 Q -27 36 0 36 Q 27 36 27 28 L 22 -12 Z" fill="url(#bucketBody)" stroke="#38bdf8" stroke-width="2"/>
+      <ellipse cx="0" cy="-12" rx="22" ry="7" fill="url(#bucketRim)" stroke="#38bdf8" stroke-width="2"/>
+      <ellipse cx="0" cy="-12" rx="16" ry="4" fill="#0a0e1a" opacity="0.45"/>
+      <path d="M -16 -5 Q -16 -24 0 -24 Q 16 -24 16 -5" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="0" y="18" font-family="Consolas, monospace" font-size="14" fill="#38bdf8" text-anchor="middle" font-weight="bold">PS</text>
+    </g>
+  </g>
+
+  <!-- Icon B -->
+  <g transform="translate(195, 636)">
+    <rect width="90" height="90" rx="18" fill="url(#iconDark)" stroke="#38bdf8" stroke-width="2.5"/>
+    <g transform="translate(45, 45)">
+      <line x1="0" y1="-18" x2="0"   y2="-30" stroke="#38bdf8" stroke-width="1.5" opacity="0.35" stroke-dasharray="2,3"/>
+      <line x1="0" y1="18"  x2="0"   y2="30"  stroke="#38bdf8" stroke-width="1.5" opacity="0.35" stroke-dasharray="2,3"/>
+      <line x1="-18" y1="0" x2="-30" y2="0"   stroke="#38bdf8" stroke-width="1.5" opacity="0.35" stroke-dasharray="2,3"/>
+      <line x1="18"  y1="0" x2="30"  y2="0"   stroke="#38bdf8" stroke-width="1.5" opacity="0.35" stroke-dasharray="2,3"/>
+
+      <circle cx="0"   cy="-32" r="5" fill="#ff9900"/>
+      <circle cx="32"  cy="0"   r="5" fill="#4285f4"/>
+      <circle cx="0"   cy="32"  r="5" fill="#c72c48"/>
+      <circle cx="-32" cy="0"   r="5" fill="#f6821f"/>
+
+      <circle cx="0" cy="0" r="18" fill="url(#hubGrad)" stroke="#38bdf8" stroke-width="2"/>
+      <text x="0" y="-3" font-family="Consolas, monospace" font-size="9" fill="#e0f2fe" text-anchor="middle" font-weight="bold">buc</text>
+      <text x="0" y="9"  font-family="Consolas, monospace" font-size="9" fill="#38bdf8" text-anchor="middle" font-weight="bold">man</text>
+
+      <circle cx="0" cy="0" r="26" fill="none" stroke="#38bdf8" stroke-width="0.8" opacity="0.2" stroke-dasharray="3,5">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="10s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Icon C -->
+  <g transform="translate(310, 636)">
+    <rect width="90" height="90" rx="18" fill="url(#iconDark)" stroke="#a855f7" stroke-width="2.5"/>
+    <g transform="translate(45, 48)">
+      <path d="M -14 -4 L -14 -18 Q -14 -30 0 -30 Q 14 -30 14 -18 L 14 -4" fill="none" stroke="#a855f7" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-24" y="-4" width="48" height="38" rx="7" fill="url(#lockBody)" stroke="#a855f7" stroke-width="2"/>
+      <text x="0" y="12" font-family="Consolas, monospace" font-size="9" fill="#c084fc" text-anchor="middle" font-weight="bold">SigV4</text>
+      <text x="0" y="26" font-family="Consolas, monospace" font-size="13" fill="#38bdf8" text-anchor="middle" font-weight="bold">PS&gt;</text>
+    </g>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- PALETTE + MONO                                       -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <text x="540" y="620" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" font-weight="600">CLOUD PROVIDER PALETTE</text>
+
+  <g transform="translate(540, 636)">
+    <rect x="0"   y="0" width="55" height="55" rx="10" fill="#0369a1"/>
+    <text x="27"  y="72" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">bucman</text>
+
+    <rect x="65"  y="0" width="55" height="55" rx="10" fill="#ff9900"/>
+    <text x="92"  y="72" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">AWS</text>
+
+    <rect x="130" y="0" width="55" height="55" rx="10" fill="#f6821f"/>
+    <text x="157" y="72" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">R2</text>
+
+    <rect x="195" y="0" width="55" height="55" rx="10" fill="#4285f4"/>
+    <text x="222" y="72" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">GCS</text>
+
+    <rect x="260" y="0" width="55" height="55" rx="10" fill="#c72c48"/>
+    <text x="287" y="72" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">MinIO</text>
+
+    <rect x="325" y="0" width="55" height="55" rx="10" fill="#7c3aed"/>
+    <text x="352" y="72" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">SigV4</text>
+  </g>
+
+  <!-- Mono strip -->
+  <g transform="translate(540, 720)">
+    <rect x="0"   y="0" width="130" height="38" rx="8" fill="#0f172a"/>
+    <text x="16"  y="25" font-family="Consolas, monospace" font-size="19" fill="#f8fafc" font-weight="700">buc<tspan fill="#38bdf8">man</tspan></text>
+
+    <rect x="140" y="0" width="130" height="38" rx="8" fill="#e0f2fe"/>
+    <text x="156" y="25" font-family="Consolas, monospace" font-size="19" fill="#0c4a6e" font-weight="700">buc<tspan fill="#0369a1">man</tspan></text>
+
+    <rect x="280" y="0" width="130" height="38" rx="8" fill="#38bdf8"/>
+    <text x="296" y="25" font-family="Consolas, monospace" font-size="19" fill="#ffffff" font-weight="700">buc<tspan fill="#e0f2fe">man</tspan></text>
+
+    <rect x="420" y="0" width="130" height="38" rx="8" fill="#7c3aed"/>
+    <text x="436" y="25" font-family="Consolas, monospace" font-size="19" fill="#ffffff" font-weight="700">buc<tspan fill="#e9d5ff">man</tspan></text>
+  </g>
+
+  <!-- ══ DEFS ═══════════════════════════════════════════════ -->
+  <defs>
+    <linearGradient id="bucketBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:#0c4a6e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#082f49;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bucketRim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:#0369a1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="hubGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#0c4a6e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#082f49;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="lockBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#3b0764;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#581c87;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="iconDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#1e293b;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

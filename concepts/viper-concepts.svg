@@ -1,0 +1,403 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#0a0e1a"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="24" fill="#64748b" text-anchor="middle" font-weight="600">Viper - Native AOT Logging Engine</text>
+  <text x="600" y="65" font-family="Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Compiled Speed • Structured Data • Beautiful Hierarchical Logs</text>
+  
+  <!-- PRIMARY LOGO -->
+  <g id="primary-logo">
+    <text x="100" y="115" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">PRIMARY LOGO</text>
+    
+    <g transform="translate(200, 180)">
+      <!-- Viper snake forming V shape -->
+      <g id="viper-icon">
+        <!-- Head (top of V, left side) -->
+        <ellipse cx="30" cy="20" rx="8" ry="10" fill="url(#viperHead)" stroke="#10b981" stroke-width="2.5"/>
+        <circle cx="27" cy="18" r="2" fill="#ef4444" opacity="0.9">
+          <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Left side of V (descending) -->
+        <path d="M 30 30 Q 25 40 22 50" fill="none" stroke="url(#viperGrad1)" stroke-width="12" stroke-linecap="round"/>
+        <path d="M 22 50 Q 20 60 20 70" fill="none" stroke="url(#viperGrad2)" stroke-width="11" stroke-linecap="round"/>
+        <path d="M 20 70 Q 22 80 28 88" fill="none" stroke="url(#viperGrad3)" stroke-width="10" stroke-linecap="round"/>
+        
+        <!-- Right side of V (ascending) -->
+        <path d="M 28 88 Q 38 82 48 78" fill="none" stroke="url(#viperGrad4)" stroke-width="9" stroke-linecap="round"/>
+        <path d="M 48 78 Q 58 74 66 68" fill="none" stroke="url(#viperGrad5)" stroke-width="8" stroke-linecap="round"/>
+        <path d="M 66 68 Q 72 60 74 50" fill="none" stroke="url(#viperGrad6)" stroke-width="7" stroke-linecap="round"/>
+        
+        <!-- Tail tip -->
+        <circle cx="74" cy="50" r="3.5" fill="#22d3ee">
+          <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Hierarchical log lines -->
+        <line x1="15" y1="50" x2="5" y2="50" stroke="#10b981" stroke-width="2" opacity="0.4"/>
+        <line x1="15" y1="58" x2="8" y2="58" stroke="#10b981" stroke-width="1.5" opacity="0.3"/>
+        <line x1="18" y1="70" x2="10" y2="70" stroke="#10b981" stroke-width="2" opacity="0.4"/>
+        <line x1="18" y1="78" x2="12" y2="78" stroke="#10b981" stroke-width="1.5" opacity="0.3"/>
+        
+        <!-- Speed lines -->
+        <line x1="75" y1="58" x2="85" y2="58" stroke="#22d3ee" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+        <line x1="77" y1="50" x2="90" y2="50" stroke="#22d3ee" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+        <line x1="75" y1="42" x2="85" y2="42" stroke="#22d3ee" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+      </g>
+      
+      <!-- Typography -->
+      <g transform="translate(120, 15)">
+        <text x="0" y="50" font-family="Arial, sans-serif" font-size="58" fill="#f8fafc" font-weight="bold" letter-spacing="2">VIPER</text>
+        <text x="0" y="68" font-family="Arial, sans-serif" font-size="11" fill="#64748b" letter-spacing="3" font-weight="500">NATIVE AOT LOGGING</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- ICON MARK -->
+  <g id="icon-mark">
+    <text x="100" y="330" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">ICON MARK</text>
+    
+    <g transform="translate(200, 370)">
+      <!-- Container -->
+      <rect x="0" y="0" width="110" height="110" rx="22" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="3"/>
+      
+      <!-- Centered viper V -->
+      <g transform="translate(55, 55)">
+        <!-- Head -->
+        <ellipse cx="-20" cy="-25" rx="7" ry="9" fill="url(#viperHead)" stroke="#10b981" stroke-width="2.5"/>
+        <circle cx="-22" cy="-27" r="2" fill="#ef4444" opacity="0.9"/>
+        
+        <!-- Left descent -->
+        <path d="M -20 -16 Q -23 -5 -25 5" fill="none" stroke="url(#viperGrad1)" stroke-width="11" stroke-linecap="round"/>
+        <path d="M -25 5 Q -26 15 -24 25" fill="none" stroke="url(#viperGrad2)" stroke-width="10" stroke-linecap="round"/>
+        
+        <!-- Bottom turn -->
+        <path d="M -24 25 Q -18 32 -8 35" fill="none" stroke="url(#viperGrad3)" stroke-width="9" stroke-linecap="round"/>
+        
+        <!-- Right ascent -->
+        <path d="M -8 35 Q 2 32 10 25" fill="none" stroke="url(#viperGrad4)" stroke-width="8" stroke-linecap="round"/>
+        <path d="M 10 25 Q 16 15 18 5" fill="none" stroke="url(#viperGrad5)" stroke-width="7" stroke-linecap="round"/>
+        <path d="M 18 5 Q 19 -5 18 -15" fill="none" stroke="url(#viperGrad6)" stroke-width="6" stroke-linecap="round"/>
+        
+        <!-- Tail tip -->
+        <circle cx="18" cy="-15" r="3" fill="#22d3ee"/>
+        
+        <!-- Log hierarchy indicators -->
+        <line x1="-28" y1="5" x2="-35" y2="5" stroke="#10b981" stroke-width="1.5" opacity="0.4"/>
+        <line x1="-27" y1="15" x2="-33" y2="15" stroke="#10b981" stroke-width="1.2" opacity="0.3"/>
+        
+        <!-- Speed indicators -->
+        <line x1="20" y1="5" x2="27" y2="5" stroke="#22d3ee" stroke-width="1.5" opacity="0.5" stroke-linecap="round"/>
+        <line x1="20" y1="-5" x2="29" y2="-5" stroke="#22d3ee" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- ALTERNATIVE CONCEPT -->
+  <g id="log-concept">
+    <text x="650" y="115" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">ALTERNATIVE: LOG HIERARCHY</text>
+    
+    <g transform="translate(650, 150)">
+      <!-- Terminal window -->
+      <rect x="0" y="0" width="420" height="220" rx="12" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+      
+      <!-- Header -->
+      <rect x="0" y="0" width="420" height="35" rx="12" fill="#334155"/>
+      <rect x="0" y="23" width="420" height="12" fill="#334155"/>
+      
+      <circle cx="18" cy="17" r="6" fill="#ef4444"/>
+      <circle cx="38" cy="17" r="6" fill="#fbbf24"/>
+      <circle cx="58" cy="17" r="6" fill="#22c55e"/>
+      
+      <text x="210" y="24" font-family="Consolas, monospace" font-size="13" fill="#94a3b8" text-anchor="middle" font-weight="600">viper.log - Native AOT Performance</text>
+      
+      <!-- Log content -->
+      <g transform="translate(15, 55)">
+        <!-- Root level -->
+        <text x="0" y="15" font-family="Consolas, monospace" font-size="12" fill="#10b981" font-weight="bold">▼</text>
+        <text x="18" y="15" font-family="Consolas, monospace" font-size="12" fill="#22d3ee">[INFO]</text>
+        <text x="70" y="15" font-family="Consolas, monospace" font-size="12" fill="#f8fafc">Application started</text>
+        <text x="230" y="15" font-family="Consolas, monospace" font-size="11" fill="#64748b">0.001ms</text>
+        
+        <!-- Level 1 -->
+        <text x="15" y="35" font-family="Consolas, monospace" font-size="12" fill="#10b981" font-weight="bold">▼</text>
+        <text x="33" y="35" font-family="Consolas, monospace" font-size="12" fill="#3b82f6">[DEBUG]</text>
+        <text x="95" y="35" font-family="Consolas, monospace" font-size="12" fill="#e2e8f0">Loading modules</text>
+        <text x="245" y="35" font-family="Consolas, monospace" font-size="11" fill="#64748b">0.003ms</text>
+        
+        <!-- Level 2 -->
+        <text x="30" y="55" font-family="Consolas, monospace" font-size="12" fill="#10b981">│</text>
+        <text x="48" y="55" font-family="Consolas, monospace" font-size="12" fill="#a78bfa">[TRACE]</text>
+        <text x="110" y="55" font-family="Consolas, monospace" font-size="12" fill="#cbd5e1">Module: Auth</text>
+        <text x="245" y="55" font-family="Consolas, monospace" font-size="11" fill="#64748b">0.005ms</text>
+        
+        <text x="30" y="75" font-family="Consolas, monospace" font-size="12" fill="#10b981">│</text>
+        <text x="48" y="75" font-family="Consolas, monospace" font-size="12" fill="#a78bfa">[TRACE]</text>
+        <text x="110" y="75" font-family="Consolas, monospace" font-size="12" fill="#cbd5e1">Module: Database</text>
+        <text x="245" y="75" font-family="Consolas, monospace" font-size="11" fill="#64748b">0.008ms</text>
+        
+        <text x="30" y="95" font-family="Consolas, monospace" font-size="12" fill="#10b981">└</text>
+        <text x="48" y="95" font-family="Consolas, monospace" font-size="12" fill="#a78bfa">[TRACE]</text>
+        <text x="110" y="95" font-family="Consolas, monospace" font-size="12" fill="#cbd5e1">Module: API</text>
+        <text x="245" y="95" font-family="Consolas, monospace" font-size="11" fill="#64748b">0.012ms</text>
+        
+        <!-- Level 1 continued -->
+        <text x="0" y="115" font-family="Consolas, monospace" font-size="12" fill="#10b981" font-weight="bold">▶</text>
+        <text x="18" y="115" font-family="Consolas, monospace" font-size="12" fill="#fbbf24">[WARN]</text>
+        <text x="70" y="115" font-family="Consolas, monospace" font-size="12" fill="#fef3c7">Deprecated config found</text>
+        <text x="260" y="115" font-family="Consolas, monospace" font-size="11" fill="#64748b">0.015ms</text>
+        
+        <text x="0" y="135" font-family="Consolas, monospace" font-size="12" fill="#10b981" font-weight="bold">✓</text>
+        <text x="18" y="135" font-family="Consolas, monospace" font-size="12" fill="#10b981">[SUCCESS]</text>
+        <text x="85" y="135" font-family="Consolas, monospace" font-size="12" fill="#d1fae5">Ready to serve requests</text>
+        <text x="275" y="135" font-family="Consolas, monospace" font-size="11" fill="#64748b">0.018ms</text>
+        
+        <!-- Performance badge -->
+        <rect x="0" y="150" width="390" height="22" rx="4" fill="#065f46" opacity="0.2"/>
+        <text x="8" y="165" font-family="Consolas, monospace" font-size="11" fill="#10b981" font-weight="600">⚡ Native AOT: 100x faster • Zero GC pauses • Instant startup</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- COLOR VARIATIONS -->
+  <g id="variations">
+    <text x="100" y="540" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">COLOR VARIATIONS</text>
+    
+    <!-- Emerald Viper (Primary) -->
+    <g transform="translate(100, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#emeraldBg)" stroke="#10b981" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <ellipse cx="-18" cy="-22" rx="6" ry="8" fill="url(#viperHead)" stroke="#10b981" stroke-width="2"/>
+        <circle cx="-20" cy="-24" r="1.5" fill="#ef4444"/>
+        <path d="M -18 -14 Q -20 -3 -22 6" fill="none" stroke="url(#viperGrad1)" stroke-width="9" stroke-linecap="round"/>
+        <path d="M -22 6 Q -23 15 -20 22" fill="none" stroke="url(#viperGrad2)" stroke-width="8" stroke-linecap="round"/>
+        <path d="M -20 22 Q -14 28 -5 30" fill="none" stroke="url(#viperGrad3)" stroke-width="7" stroke-linecap="round"/>
+        <path d="M -5 30 Q 4 28 12 22" fill="none" stroke="url(#viperGrad4)" stroke-width="6" stroke-linecap="round"/>
+        <path d="M 12 22 Q 17 14 18 5" fill="none" stroke="url(#viperGrad5)" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="18" cy="5" r="2.5" fill="#22d3ee"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Emerald</text>
+    </g>
+    
+    <!-- Cyan Strike -->
+    <g transform="translate(220, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#cyanBg)" stroke="#06b6d4" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <ellipse cx="-18" cy="-22" rx="6" ry="8" fill="#0e7490" stroke="#06b6d4" stroke-width="2"/>
+        <circle cx="-20" cy="-24" r="1.5" fill="#ef4444"/>
+        <path d="M -18 -14 Q -20 -3 -22 6" fill="none" stroke="#06b6d4" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+        <path d="M -22 6 Q -23 15 -20 22" fill="none" stroke="#0891b2" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+        <path d="M -20 22 Q -14 28 -5 30" fill="none" stroke="#0e7490" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+        <path d="M -5 30 Q 4 28 12 22" fill="none" stroke="#155e75" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+        <path d="M 12 22 Q 17 14 18 5" fill="none" stroke="#164e63" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+        <circle cx="18" cy="5" r="2.5" fill="#22d3ee"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Cyan</text>
+    </g>
+    
+    <!-- Purple Venom -->
+    <g transform="translate(340, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#purpleBg)" stroke="#a855f7" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <ellipse cx="-18" cy="-22" rx="6" ry="8" fill="#7c3aed" stroke="#a855f7" stroke-width="2"/>
+        <circle cx="-20" cy="-24" r="1.5" fill="#ef4444"/>
+        <path d="M -18 -14 Q -20 -3 -22 6" fill="none" stroke="#a855f7" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+        <path d="M -22 6 Q -23 15 -20 22" fill="none" stroke="#9333ea" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+        <path d="M -20 22 Q -14 28 -5 30" fill="none" stroke="#7c3aed" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+        <path d="M -5 30 Q 4 28 12 22" fill="none" stroke="#6d28d9" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+        <path d="M 12 22 Q 17 14 18 5" fill="none" stroke="#5b21b6" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+        <circle cx="18" cy="5" r="2.5" fill="#c084fc"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Purple</text>
+    </g>
+    
+    <!-- Red Danger -->
+    <g transform="translate(460, 575)">
+      <rect width="90" height="90" rx="18" fill="url(#redBg)" stroke="#ef4444" stroke-width="2.5"/>
+      <g transform="translate(45, 45)">
+        <ellipse cx="-18" cy="-22" rx="6" ry="8" fill="#b91c1c" stroke="#ef4444" stroke-width="2"/>
+        <circle cx="-20" cy="-24" r="1.5" fill="#fbbf24"/>
+        <path d="M -18 -14 Q -20 -3 -22 6" fill="none" stroke="#ef4444" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+        <path d="M -22 6 Q -23 15 -20 22" fill="none" stroke="#dc2626" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+        <path d="M -20 22 Q -14 28 -5 30" fill="none" stroke="#b91c1c" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+        <path d="M -5 30 Q 4 28 12 22" fill="none" stroke="#991b1b" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+        <path d="M 12 22 Q 17 14 18 5" fill="none" stroke="#7f1d1d" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+        <circle cx="18" cy="5" r="2.5" fill="#fbbf24"/>
+      </g>
+      <text x="45" y="110" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Red</text>
+    </g>
+  </g>
+  
+  <!-- APP ICONS -->
+  <g id="app-icons">
+    <text x="650" y="410" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">APP ICONS</text>
+    
+    <!-- 128px -->
+    <g transform="translate(650, 445)">
+      <rect width="110" height="110" rx="22" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="3"/>
+      <g transform="translate(55, 55)">
+        <ellipse cx="-20" cy="-25" rx="7" ry="9" fill="url(#viperHead)" stroke="#10b981" stroke-width="2.5"/>
+        <circle cx="-22" cy="-27" r="2" fill="#ef4444" opacity="0.9"/>
+        <path d="M -20 -16 Q -23 -5 -25 5" fill="none" stroke="url(#viperGrad1)" stroke-width="11" stroke-linecap="round"/>
+        <path d="M -25 5 Q -26 15 -24 25" fill="none" stroke="url(#viperGrad2)" stroke-width="10" stroke-linecap="round"/>
+        <path d="M -24 25 Q -18 32 -8 35" fill="none" stroke="url(#viperGrad3)" stroke-width="9" stroke-linecap="round"/>
+        <path d="M -8 35 Q 2 32 10 25" fill="none" stroke="url(#viperGrad4)" stroke-width="8" stroke-linecap="round"/>
+        <path d="M 10 25 Q 16 15 18 5" fill="none" stroke="url(#viperGrad5)" stroke-width="7" stroke-linecap="round"/>
+        <path d="M 18 5 Q 19 -5 18 -15" fill="none" stroke="url(#viperGrad6)" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="18" cy="-15" r="3" fill="#22d3ee"/>
+      </g>
+      <text x="55" y="170" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">128px</text>
+    </g>
+    
+    <!-- 64px -->
+    <g transform="translate(790, 468)">
+      <rect width="64" height="64" rx="13" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="2"/>
+      <g transform="translate(32, 32)">
+        <ellipse cx="-14" cy="-18" rx="5" ry="6" fill="url(#viperHead)" stroke="#10b981" stroke-width="2"/>
+        <circle cx="-15" cy="-19" r="1.5" fill="#ef4444"/>
+        <path d="M -14 -12 Q -16 -4 -17 3" fill="none" stroke="url(#viperGrad1)" stroke-width="8" stroke-linecap="round"/>
+        <path d="M -17 3 Q -18 10 -16 17" fill="none" stroke="url(#viperGrad2)" stroke-width="7" stroke-linecap="round"/>
+        <path d="M -16 17 Q -12 22 -5 24" fill="none" stroke="url(#viperGrad3)" stroke-width="6" stroke-linecap="round"/>
+        <path d="M -5 24 Q 2 22 8 17" fill="none" stroke="url(#viperGrad4)" stroke-width="5" stroke-linecap="round"/>
+        <path d="M 8 17 Q 12 10 13 3" fill="none" stroke="url(#viperGrad5)" stroke-width="4.5" stroke-linecap="round"/>
+        <circle cx="13" cy="3" r="2" fill="#22d3ee"/>
+      </g>
+      <text x="32" y="80" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">64px</text>
+    </g>
+    
+    <!-- 32px -->
+    <g transform="translate(884, 500)">
+      <rect width="32" height="32" rx="7" fill="url(#iconBg)" stroke="url(#iconStroke)" stroke-width="1"/>
+      <g transform="translate(16, 16)">
+        <ellipse cx="-8" cy="-10" rx="3" ry="4" fill="url(#viperHead)" stroke="#10b981" stroke-width="1"/>
+        <circle cx="-8.5" cy="-11" r="1" fill="#ef4444"/>
+        <path d="M -8 -6 Q -9 -2 -10 2" fill="none" stroke="url(#viperGrad1)" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M -10 2 Q -10 6 -8 10" fill="none" stroke="url(#viperGrad2)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M -8 10 Q -5 12 -1 13" fill="none" stroke="url(#viperGrad3)" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M -1 13 Q 3 12 6 9" fill="none" stroke="url(#viperGrad4)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M 6 9 Q 8 5 8 1" fill="none" stroke="url(#viperGrad5)" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="8" cy="1" r="1.5" fill="#22d3ee"/>
+      </g>
+      <text x="16" y="48" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">32px</text>
+    </g>
+  </g>
+  
+  <!-- MONOCHROME -->
+  <g id="monochrome">
+    <text x="650" y="590" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="600">MONOCHROME</text>
+    
+    <!-- Light -->
+    <g transform="translate(650, 625)">
+      <rect width="130" height="85" rx="8" fill="#0f172a"/>
+      <g transform="translate(65, 42)">
+        <ellipse cx="-16" cy="-20" rx="6" ry="7" fill="none" stroke="#f8fafc" stroke-width="2"/>
+        <path d="M -16 -13 Q -18 -4 -19 4" fill="none" stroke="#f8fafc" stroke-width="9" stroke-linecap="round"/>
+        <path d="M -19 4 Q -20 12 -18 20" fill="none" stroke="#f8fafc" stroke-width="8" stroke-linecap="round"/>
+        <path d="M -18 20 Q -12 26 -4 28" fill="none" stroke="#f8fafc" stroke-width="7" stroke-linecap="round"/>
+        <path d="M -4 28 Q 4 26 10 20" fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round"/>
+        <path d="M 10 20 Q 14 12 15 4" fill="none" stroke="#f8fafc" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="15" cy="4" r="2.5" fill="#f8fafc"/>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Light</text>
+    </g>
+    
+    <!-- Dark -->
+    <g transform="translate(810, 625)">
+      <rect width="130" height="85" rx="8" fill="#f8fafc"/>
+      <g transform="translate(65, 42)">
+        <ellipse cx="-16" cy="-20" rx="6" ry="7" fill="none" stroke="#0f172a" stroke-width="2"/>
+        <path d="M -16 -13 Q -18 -4 -19 4" fill="none" stroke="#0f172a" stroke-width="9" stroke-linecap="round"/>
+        <path d="M -19 4 Q -20 12 -18 20" fill="none" stroke="#0f172a" stroke-width="8" stroke-linecap="round"/>
+        <path d="M -18 20 Q -12 26 -4 28" fill="none" stroke="#0f172a" stroke-width="7" stroke-linecap="round"/>
+        <path d="M -4 28 Q 4 26 10 20" fill="none" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+        <path d="M 10 20 Q 14 12 15 4" fill="none" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="15" cy="4" r="2.5" fill="#0f172a"/>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Dark</text>
+    </g>
+    
+    <!-- Single -->
+    <g transform="translate(970, 625)">
+      <rect width="130" height="85" rx="8" fill="#10b981"/>
+      <g transform="translate(65, 42)">
+        <ellipse cx="-16" cy="-20" rx="6" ry="7" fill="#065f46" stroke="#ffffff" stroke-width="2"/>
+        <path d="M -16 -13 Q -18 -4 -19 4" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+        <path d="M -19 4 Q -20 12 -18 20" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+        <path d="M -18 20 Q -12 26 -4 28" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+        <path d="M -4 28 Q 4 26 10 20" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+        <path d="M 10 20 Q 14 12 15 4" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+        <circle cx="15" cy="4" r="2.5" fill="#ffffff"/>
+      </g>
+      <text x="65" y="105" font-family="Arial, sans-serif" font-size="10" fill="#064e3b" text-anchor="middle">Single</text>
+    </g>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="viperHead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="viperGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.95" />
+    </linearGradient>
+    
+    <linearGradient id="viperGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <linearGradient id="viperGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#047857;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#065f46;stop-opacity:0.85" />
+    </linearGradient>
+    
+    <linearGradient id="viperGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#065f46;stop-opacity:0.85" />
+      <stop offset="100%" style="stop-color:#064e3b;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <linearGradient id="viperGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#064e3b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#022c22;stop-opacity:0.75" />
+    </linearGradient>
+    
+    <linearGradient id="viperGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#022c22;stop-opacity:0.75" />
+      <stop offset="100%" style="stop-color:#14532d;stop-opacity:0.7" />
+    </linearGradient>
+    
+    <linearGradient id="iconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="iconStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="emeraldBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#064e3b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#065f46;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="cyanBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#164e63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#155e75;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="purpleBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#581c87;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6b21a8;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="redBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7f1d1d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#991b1b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,204 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0a0e1a"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="20" fill="#64748b" text-anchor="middle" font-weight="600">ZAP - Logo Concepts</text>
+  
+  <!-- Concept 1: Lightning Bolt with Typography -->
+  <g id="concept1">
+    <text x="50" y="90" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="500">Concept 1: Lightning Bold</text>
+    
+    <!-- Main logo -->
+    <g transform="translate(150, 140)">
+      <!-- Lightning bolt icon -->
+      <path d="M 20 0 L 0 35 L 15 35 L 10 60 L 40 20 L 23 20 L 30 0 Z" 
+            fill="url(#gradient1)" 
+            stroke="#fbbf24" 
+            stroke-width="1.5"/>
+      
+      <!-- Text -->
+      <text x="55" y="45" font-family="'Courier New', monospace" font-size="48" fill="#f8fafc" font-weight="bold" letter-spacing="2">ZAP</text>
+      
+      <!-- Tagline -->
+      <text x="55" y="62" font-family="Arial, sans-serif" font-size="10" fill="#64748b" letter-spacing="3">ZERO BUILD COST</text>
+    </g>
+  </g>
+  
+  <!-- Concept 2: Geometric Z with Speed Lines -->
+  <g id="concept2">
+    <text x="400" y="90" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="500">Concept 2: Geometric Speed</text>
+    
+    <g transform="translate(480, 110)">
+      <!-- Stylized Z with motion -->
+      <path d="M 0 10 L 50 10 L 0 60 L 50 60" 
+            fill="none" 
+            stroke="url(#gradient2)" 
+            stroke-width="8" 
+            stroke-linecap="round" 
+            stroke-linejoin="round"/>
+      
+      <!-- Speed lines -->
+      <line x1="-15" y1="20" x2="0" y2="20" stroke="#3b82f6" stroke-width="3" opacity="0.6"/>
+      <line x1="-20" y1="35" x2="0" y2="35" stroke="#3b82f6" stroke-width="3" opacity="0.4"/>
+      <line x1="-15" y1="50" x2="0" y2="50" stroke="#3b82f6" stroke-width="3" opacity="0.6"/>
+      
+      <!-- Text -->
+      <text x="65" y="50" font-family="'SF Mono', 'Courier New', monospace" font-size="36" fill="#f8fafc" font-weight="700">ZAP</text>
+    </g>
+  </g>
+  
+  <!-- Concept 3: Circuit/Tech Inspired -->
+  <g id="concept3">
+    <text x="50" y="230" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="500">Concept 3: Circuit Tech</text>
+    
+    <g transform="translate(150, 280)">
+      <!-- Hexagonal badge -->
+      <polygon points="30,5 60,20 60,50 30,65 0,50 0,20" 
+               fill="url(#gradient3)" 
+               stroke="#06b6d4" 
+               stroke-width="2"/>
+      
+      <!-- Inner Z circuit pattern -->
+      <path d="M 15 25 L 35 25 L 15 45 L 35 45" 
+            fill="none" 
+            stroke="#f0f9ff" 
+            stroke-width="4" 
+            stroke-linecap="round"/>
+      
+      <!-- Circuit nodes -->
+      <circle cx="15" cy="25" r="2" fill="#06b6d4"/>
+      <circle cx="35" cy="25" r="2" fill="#06b6d4"/>
+      <circle cx="15" cy="45" r="2" fill="#06b6d4"/>
+      <circle cx="35" cy="45" r="2" fill="#06b6d4"/>
+      
+      <!-- Text -->
+      <text x="75" y="45" font-family="'Roboto Mono', monospace" font-size="42" fill="#f8fafc" font-weight="600">ZAP</text>
+    </g>
+  </g>
+  
+  <!-- Concept 4: Minimal Monogram -->
+  <g id="concept4">
+    <text x="400" y="230" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="500">Concept 4: Minimal Mark</text>
+    
+    <g transform="translate(500, 260)">
+      <!-- Square container -->
+      <rect x="0" y="0" width="70" height="70" rx="12" 
+            fill="url(#gradient4)" 
+            stroke="#8b5cf6" 
+            stroke-width="2"/>
+      
+      <!-- Stylized Z -->
+      <path d="M 15 20 L 55 20 L 25 50 L 15 50 L 45 20 M 15 50 L 55 50" 
+            fill="none" 
+            stroke="#f8fafc" 
+            stroke-width="5" 
+            stroke-linecap="round" 
+            stroke-linejoin="round"/>
+      
+      <!-- Small lightning accent -->
+      <path d="M 52 35 L 48 42 L 52 42 L 50 50" 
+            fill="#fbbf24" 
+            opacity="0.8"/>
+      
+      <!-- Text -->
+      <text x="85" y="48" font-family="'Inter', Arial, sans-serif" font-size="38" fill="#f8fafc" font-weight="700">ZAP</text>
+    </g>
+  </g>
+  
+  <!-- Concept 5: Energy Wave -->
+  <g id="concept5">
+    <text x="50" y="380" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="500">Concept 5: Energy Pulse</text>
+    
+    <g transform="translate(100, 420)">
+      <!-- Pulsing circles -->
+      <circle cx="30" cy="30" r="28" fill="none" stroke="#10b981" stroke-width="2" opacity="0.3"/>
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#10b981" stroke-width="2" opacity="0.5"/>
+      <circle cx="30" cy="30" r="12" fill="url(#gradient5)" stroke="#10b981" stroke-width="2"/>
+      
+      <!-- Lightning in center -->
+      <path d="M 32 20 L 28 30 L 32 30 L 28 40" 
+            fill="#fbbf24" 
+            stroke="#f59e0b" 
+            stroke-width="1"/>
+      
+      <!-- Text -->
+      <text x="75" y="42" font-family="'JetBrains Mono', monospace" font-size="44" fill="#f8fafc" font-weight="700" letter-spacing="1">ZAP</text>
+      <text x="75" y="55" font-family="Arial, sans-serif" font-size="9" fill="#64748b" letter-spacing="2">STATIC SITE GENERATOR</text>
+    </g>
+  </g>
+  
+  <!-- Icon Variations Section -->
+  <g id="icon-variations">
+    <text x="400" y="380" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" font-weight="500">App Icons (64x64)</text>
+    
+    <!-- Icon 1: Lightning Badge -->
+    <g transform="translate(420, 410)">
+      <rect width="64" height="64" rx="14" fill="url(#iconGrad1)"/>
+      <path d="M 35 15 L 25 35 L 32 35 L 28 50 L 45 30 L 37 30 L 42 15 Z" 
+            fill="#fbbf24"/>
+    </g>
+    
+    <!-- Icon 2: Z Strike -->
+    <g transform="translate(500, 410)">
+      <rect width="64" height="64" rx="14" fill="url(#iconGrad2)"/>
+      <path d="M 18 22 L 46 22 L 22 42 L 18 42 L 42 22 M 18 42 L 46 42" 
+            fill="none" 
+            stroke="#f8fafc" 
+            stroke-width="5" 
+            stroke-linecap="round" 
+            stroke-linejoin="round"/>
+    </g>
+    
+    <!-- Icon 3: Pulse -->
+    <g transform="translate(580, 410)">
+      <rect width="64" height="64" rx="14" fill="url(#iconGrad3)"/>
+      <circle cx="32" cy="32" r="18" fill="none" stroke="#10b981" stroke-width="3" opacity="0.4"/>
+      <circle cx="32" cy="32" r="10" fill="#10b981"/>
+      <path d="M 34 24 L 30 32 L 34 32 L 30 40" fill="#fbbf24"/>
+    </g>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0891b2;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.1" />
+    </linearGradient>
+    
+    <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.1" />
+    </linearGradient>
+    
+    <linearGradient id="gradient5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="iconGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="iconGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="iconGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#064e3b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#022c22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

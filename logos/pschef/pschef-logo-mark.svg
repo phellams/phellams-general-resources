@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512mm"
+   height="512mm"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="pschef-logo-mark.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.29055437"
+     inkscape:cx="-1898.0957"
+     inkscape:cy="1405.9331"
+     inkscape:window-width="3840"
+     inkscape:window-height="2075"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="iconBg"
+       x1="-1.5"
+       y1="-1.5"
+       x2="111.5"
+       y2="111.5"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#1e293b;stop-opacity:1"
+         id="stop61" />
+      <stop
+         offset="100%"
+         style="stop-color:#0f172a;stop-opacity:1"
+         id="stop62" />
+    </linearGradient>
+    <linearGradient
+       id="iconStroke"
+       x1="-1.5"
+       y1="-1.5"
+       x2="111.5"
+       y2="111.5"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#e879f9;stop-opacity:0.8"
+         id="stop63" />
+      <stop
+         offset="100%"
+         style="stop-color:#c026d3;stop-opacity:1"
+         id="stop64" />
+    </linearGradient>
+    <linearGradient
+       id="hatBase"
+       x1="8.8752031"
+       y1="122.58874"
+       x2="8.8752031"
+       y2="165.85536"
+       gradientTransform="scale(1.8027756,0.5547002)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#1e293b;stop-opacity:0.6"
+         id="stop59" />
+      <stop
+         offset="100%"
+         style="stop-color:#0f172a;stop-opacity:0.8"
+         id="stop60" />
+    </linearGradient>
+    <linearGradient
+       id="hatTop"
+       x1="16.452638"
+       y1="34.904671"
+       x2="16.452638"
+       y2="92.588449"
+       gradientTransform="scale(1.2142747,0.82353685)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#fef3c7;stop-opacity:1"
+         id="stop57" />
+      <stop
+         offset="100%"
+         style="stop-color:#fde68a;stop-opacity:0.95"
+         id="stop58" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(4.3400289,0,0,4.3400289,17.480416,16.796304)"
+       id="g12">
+      <!-- Rounded square container -->
+      <rect
+         x="0"
+         y="0"
+         width="110"
+         height="110"
+         rx="1.3411969"
+         fill="url(#iconBg)"
+         stroke="url(#iconStroke)"
+         stroke-width="3"
+         id="rect9"
+         style="fill:url(#iconBg);stroke:url(#iconStroke)"
+         ry="1.3411969" />
+      <!-- Chef hat -->
+      <ellipse
+         cx="55"
+         cy="80"
+         rx="38"
+         ry="11"
+         fill="url(#hatBase)"
+         stroke="#e879f9"
+         stroke-width="2"
+         id="ellipse9"
+         style="fill:url(#hatBase)" />
+      <path
+         d="m 23,75 q -5,-17 4,-30 5,-13 28,-15 23,2 28,15 9,13 4,30 z"
+         fill="url(#hatTop)"
+         stroke="#e879f9"
+         stroke-width="2.5"
+         id="path9"
+         style="fill:url(#hatTop)" />
+      <!-- PowerShell prompt -->
+      <text
+         x="40"
+         y="65"
+         font-family="Consolas, monospace"
+         font-size="28px"
+         fill="#22d3ee"
+         font-weight="bold"
+         id="text10">&gt;</text>
+      <!-- Ingredient dots -->
+      <circle
+         cx="32"
+         cy="52"
+         r="3.5"
+         fill="#fb923c"
+         id="circle10" />
+      <circle
+         cx="78"
+         cy="52"
+         r="3.5"
+         fill="#34d399"
+         id="circle11" />
+      <circle
+         cx="55"
+         cy="42"
+         r="3.5"
+         fill="#fbbf24"
+         id="circle12" />
+    </g>
+  </g>
+</svg>
