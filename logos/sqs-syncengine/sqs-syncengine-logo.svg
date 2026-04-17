@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 72 72"
+   fill="none"
+   style="flex-shrink:0;"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="sqs-syncengine-logo.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="12.71875"
+     inkscape:cx="32"
+     inkscape:cy="32"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <path
+     d="M36 4 L64 20 L64 52 L36 68 L8 52 L8 20 Z"
+     stroke="#232328"
+     stroke-width="1.5"
+     fill="#141416"
+     style="--darkreader-inline-stroke: var(--darkreader-text-232328, #dbd6ce); --darkreader-inline-fill: var(--darkreader-background-141416, #000000);"
+     data-darkreader-inline-stroke=""
+     data-darkreader-inline-fill=""
+     id="path1" />
+  <path
+     d="M36 13 L57 25 L57 47 L36 59 L15 47 L15 25 Z"
+     stroke="#2a2a32"
+     stroke-width="1"
+     fill="none"
+     stroke-dasharray="3 3"
+     style="--darkreader-inline-stroke: var(--darkreader-text-2a2a32, #d4cec7);"
+     data-darkreader-inline-stroke=""
+     id="path2" />
+  <path
+     d="M24 28 A14 14 0 0 1 48 28"
+     stroke="#00e5a0"
+     stroke-width="2"
+     fill="none"
+     stroke-linecap="round"
+     style="--darkreader-inline-stroke: var(--darkreader-text-00e5a0, #10ffc6);"
+     data-darkreader-inline-stroke=""
+     id="path3" />
+  <polygon
+     points="48,28 52,24 52,32 "
+     fill="#00e5a0"
+     transform="rotate(167.46012,49.871869,27.741072)"
+     data-darkreader-inline-fill=""
+     id="polygon3"
+     inkscape:transform-center-x="5.767864"
+     inkscape:transform-center-y="7.3102905" />
+  <path
+     d="M48 44 A14 14 0 0 1 24 44"
+     stroke="#00b8ff"
+     stroke-width="2"
+     fill="none"
+     stroke-linecap="round"
+     style="--darkreader-inline-stroke: var(--darkreader-text-00b8ff, #00c6ff);"
+     data-darkreader-inline-stroke=""
+     id="path4" />
+  <polygon
+     points="24,44 20,40 20,48"
+     fill="#00b8ff"
+     transform="rotate(165 22 44)"
+     style="--darkreader-inline-fill: var(--darkreader-text-00b8ff, #00c6ff);"
+     data-darkreader-inline-fill=""
+     id="polygon4" />
+  <circle
+     cx="36"
+     cy="36"
+     r="3"
+     fill="#00e5a0"
+     opacity="0.8"
+     style="--darkreader-inline-fill: var(--darkreader-text-00e5a0, #10ffc6);"
+     data-darkreader-inline-fill=""
+     id="circle4" />
+  <line
+     x1="36"
+     y1="4"
+     x2="36"
+     y2="9"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     style="--darkreader-inline-stroke: var(--darkreader-border-3a3a42, #6e6353);"
+     data-darkreader-inline-stroke=""
+     id="line4" />
+  <line
+     x1="64"
+     y1="20"
+     x2="59.7"
+     y2="22.5"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     style="--darkreader-inline-stroke: var(--darkreader-border-3a3a42, #6e6353);"
+     data-darkreader-inline-stroke=""
+     id="line5" />
+  <line
+     x1="64"
+     y1="52"
+     x2="59.7"
+     y2="49.5"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     style="--darkreader-inline-stroke: var(--darkreader-border-3a3a42, #6e6353);"
+     data-darkreader-inline-stroke=""
+     id="line6" />
+  <line
+     x1="36"
+     y1="68"
+     x2="36"
+     y2="63"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     style="--darkreader-inline-stroke: var(--darkreader-border-3a3a42, #6e6353);"
+     data-darkreader-inline-stroke=""
+     id="line7" />
+  <line
+     x1="8"
+     y1="52"
+     x2="12.3"
+     y2="49.5"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     style="--darkreader-inline-stroke: var(--darkreader-border-3a3a42, #6e6353);"
+     data-darkreader-inline-stroke=""
+     id="line8" />
+  <line
+     x1="8"
+     y1="20"
+     x2="12.3"
+     y2="22.5"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     style="--darkreader-inline-stroke: var(--darkreader-border-3a3a42, #6e6353);"
+     data-darkreader-inline-stroke=""
+     id="line9" />
+</svg>

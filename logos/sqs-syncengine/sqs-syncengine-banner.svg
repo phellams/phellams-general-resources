@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="256"
+   height="64"
+   viewBox="0 0 288 72"
+   fill="none"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="sqs-syncengine-banner.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9">
+    <linearGradient
+       id="linearGradient18"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#47bbbd;stop-opacity:1;"
+         offset="0.16397849"
+         id="stop18" />
+      <stop
+         style="stop-color:#242424;stop-opacity:1;"
+         offset="0.73655915"
+         id="stop20" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop19" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient18"
+       id="linearGradient19"
+       x1="115.66286"
+       y1="27.766666"
+       x2="273.31084"
+       y2="27.766666"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1241893"
+     inkscape:cx="-8.0057691"
+     inkscape:cy="-11.563889"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <path
+     d="M 36,4 64,20 V 52 L 36,68 8,52 V 20 Z"
+     stroke="#232328"
+     stroke-width="1.5"
+     fill="#141416"
+     data-darkreader-inline-stroke=""
+     data-darkreader-inline-fill=""
+     id="path1" />
+  <path
+     d="M 36,13 57,25 V 47 L 36,59 15,47 V 25 Z"
+     stroke="#2a2a32"
+     stroke-width="1"
+     fill="none"
+     stroke-dasharray="3, 3"
+     data-darkreader-inline-stroke=""
+     id="path2" />
+  <path
+     d="m 24,28 a 14,14 0 0 1 24,0"
+     stroke="#00e5a0"
+     stroke-width="2"
+     fill="none"
+     stroke-linecap="round"
+     data-darkreader-inline-stroke=""
+     id="path3" />
+  <polygon
+     points="52,32 48,28 52,24 "
+     fill="#00e5a0"
+     transform="rotate(167.46012,49.994829,27.844102)"
+     data-darkreader-inline-fill=""
+     id="polygon3"
+     inkscape:transform-center-x="5.767864"
+     inkscape:transform-center-y="7.3102905" />
+  <path
+     d="M 48,44 A 14,14 0 0 1 24,44"
+     stroke="#00b8ff"
+     stroke-width="2"
+     fill="none"
+     stroke-linecap="round"
+     data-darkreader-inline-stroke=""
+     id="path4" />
+  <polygon
+     points="24,44 20,40 20,48 "
+     fill="#00b8ff"
+     transform="rotate(165,22,44)"
+     data-darkreader-inline-fill=""
+     id="polygon4" />
+  <circle
+     cx="36"
+     cy="36"
+     r="3"
+     fill="#00e5a0"
+     opacity="0.8"
+     data-darkreader-inline-fill=""
+     id="circle4" />
+  <line
+     x1="36"
+     y1="4"
+     x2="36"
+     y2="9"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     data-darkreader-inline-stroke=""
+     id="line4" />
+  <line
+     x1="64"
+     y1="20"
+     x2="59.700001"
+     y2="22.5"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     data-darkreader-inline-stroke=""
+     id="line5" />
+  <line
+     x1="64"
+     y1="52"
+     x2="59.700001"
+     y2="49.5"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     data-darkreader-inline-stroke=""
+     id="line6" />
+  <line
+     x1="36"
+     y1="68"
+     x2="36"
+     y2="63"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     data-darkreader-inline-stroke=""
+     id="line7" />
+  <line
+     x1="8"
+     y1="52"
+     x2="12.3"
+     y2="49.5"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     data-darkreader-inline-stroke=""
+     id="line8" />
+  <line
+     x1="8"
+     y1="20"
+     x2="12.3"
+     y2="22.5"
+     stroke="#3a3a42"
+     stroke-width="1.5"
+     data-darkreader-inline-stroke=""
+     id="line9" />
+  <text
+     xml:space="preserve"
+     style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5409px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold Italic';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.536341;fill:#000000;fill-opacity:1;stroke-width:0.988212;stroke-linejoin:round;stroke-dasharray:6.12987, 12.2597;paint-order:stroke fill markers"
+     x="78.48008"
+     y="45.049587"
+     id="text12"
+     transform="scale(0.87841065,1.1384197)"><tspan
+       sodipodi:role="line"
+       id="tspan12"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5409px;font-family:'MonaspiceNe Nerd Font Mono';-inkscape-font-specification:'MonaspiceNe Nerd Font Mono';fill:#000000;fill-opacity:1;stroke-width:0.988212"
+       x="78.48008"
+       y="45.049587">Store CRUD operations for Squarespace</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'MonaspiceNe Nerd Font Mono';-inkscape-font-specification:'MonaspiceNe Nerd Font Mono';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.536341;fill:#000000;fill-opacity:1;stroke-width:1.125;stroke-linejoin:round;stroke-dasharray:6.97837, 13.9567;paint-order:stroke fill markers"
+     x="80.558052"
+     y="24.51767"
+     id="text13"><tspan
+       sodipodi:role="line"
+       id="tspan13"
+       style="stroke-width:1.125"></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.8806px;font-family:'MonaspiceNe Nerd Font Mono';-inkscape-font-specification:'MonaspiceNe Nerd Font Mono';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.536341;fill:#000000;fill-opacity:1;stroke-width:2.2388;stroke-linejoin:round;stroke-dasharray:13.8873, 27.7745;paint-order:stroke fill markers"
+     x="68.031013"
+     y="33.584511"
+     id="text14"><tspan
+       sodipodi:role="line"
+       id="tspan14"
+       style="stroke-width:2.2388"
+       x="68.031013"
+       y="33.584511"><tspan
+         style="fill:#47bbbd;fill-opacity:1;stroke-width:2.2388"
+         id="tspan15">sqs</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.8806px;font-family:'MonaspiceNe Nerd Font Mono';-inkscape-font-specification:'MonaspiceNe Nerd Font Mono';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.536341;fill:url(#linearGradient19);fill-opacity:1;stroke-width:1.125;stroke-linejoin:round;stroke-dasharray:6.97837, 13.9567;paint-order:stroke fill markers"
+     x="112.08077"
+     y="34.524876"
+     id="text17"><tspan
+       sodipodi:role="line"
+       id="tspan17"
+       style="font-size:23.8806px;stroke-width:1.125;fill:url(#linearGradient19)"
+       x="112.08077"
+       y="34.524876">-<tspan
+   id="tspan18"
+   style="font-size:23.8806px;fill:url(#linearGradient19)">syncengine</tspan></tspan></text>
+</svg>
