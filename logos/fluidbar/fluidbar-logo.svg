@@ -1,0 +1,30 @@
+<svg class="logo-mark" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="waveGradDark" x1="0" y1="22" x2="44" y2="22" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#ff4b8b"></stop>
+                  <stop offset="25%" stop-color="#c45aff"></stop>
+                  <stop offset="50%" stop-color="#4e8cff"></stop>
+                  <stop offset="75%" stop-color="#00d4aa"></stop>
+                  <stop offset="100%" stop-color="#00f0c8"></stop>
+                </linearGradient>
+                <linearGradient id="trackGradDark" x1="0" y1="0" x2="44" y2="0" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#ff4b8b" stop-opacity="0.18"></stop>
+                  <stop offset="100%" stop-color="#00f0c8" stop-opacity="0.18"></stop>
+                </linearGradient>
+                <clipPath id="clipMarkDark">
+                  <rect x="0" y="0" width="44" height="44" rx="10"></rect>
+                </clipPath>
+              </defs>
+              <rect x="0" y="0" width="44" height="44" rx="10" fill="#12152080"></rect>
+              <!-- track bg -->
+              <rect x="6" y="18" width="32" height="8" rx="4" fill="url(#trackGradDark)"></rect>
+              <!-- wave path (fluid sine) -->
+              <path d="M6 22 C10 14, 14 14, 18 22 C22 30, 26 30, 30 22 C32 18, 34 18, 38 22" stroke="url(#waveGradDark)" stroke-width="2.5" stroke-linecap="round" fill="none"></path>
+              <!-- leading dot -->
+              <circle cx="38" cy="22" r="2.5" fill="#00f0c8"></circle>
+              <!-- tick marks (progress bar semantics) -->
+              <line x1="6" y1="30" x2="6" y2="33" stroke="#ff4b8b" stroke-width="1.5" stroke-linecap="round" opacity="0.7"></line>
+              <line x1="17.3" y1="30" x2="17.3" y2="33" stroke="#c45aff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"></line>
+              <line x1="28.7" y1="30" x2="28.7" y2="33" stroke="#00d4aa" stroke-width="1.5" stroke-linecap="round" opacity="0.7"></line>
+              <line x1="38" y1="30" x2="38" y2="33" stroke="#00f0c8" stroke-width="1.5" stroke-linecap="round" opacity="0.7"></line>
+            </svg>
