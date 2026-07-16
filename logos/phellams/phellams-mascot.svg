@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="200" cy="330" rx="120" ry="34" fill="#D6E9FB"/>
+  <!-- helmet -->
+  <path d="M 120 190 A 80 80 0 0 1 280 190 Z" fill="#12294F"/>
+  <circle cx="200" cy="150" r="46" fill="#0A1B38"/>
+  <circle cx="200" cy="150" r="34" fill="#EAF4FF"/>
+  <text x="200" y="160" font-family="'Consolas', 'Courier New', monospace" font-weight="700" font-size="26" fill="#12294F" text-anchor="middle">&gt;_</text>
+  <!-- body -->
+  <path d="M 130 190 L 270 190 L 300 300 L 240 260 L 200 320 L 160 260 L 100 300 Z" fill="#1E4C8A"/>
+  <!-- arms -->
+  <path d="M 130 195 L 70 240 L 90 270 L 140 235 Z" fill="#12294F"/>
+  <path d="M 270 195 L 330 240 L 310 270 L 260 235 Z" fill="#12294F"/>
+</svg>

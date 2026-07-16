@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="loopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B3A6B"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <!-- stem of the P -->
+  <rect x="140" y="100" width="34" height="220" rx="17" fill="#12294F"/>
+  <!-- bowl of the P as an automation/sync loop -->
+  <path d="M 174 118
+           A 78 78 0 1 1 168 236"
+        fill="none" stroke="url(#loopGrad)" stroke-width="30" stroke-linecap="round"/>
+  <!-- arrowhead to make the loop read as "sync" -->
+  <path d="M 168 236 L 148 214 L 196 208 Z" fill="#38BDF8"/>
+</svg>

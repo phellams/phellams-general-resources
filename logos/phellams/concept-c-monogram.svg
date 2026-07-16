@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#FFFFFF"/>
+  <text x="60" y="248" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="200" fill="#12294F">Ph</text>
+  <rect x="278" y="180" width="46" height="20" fill="#38BDF8">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

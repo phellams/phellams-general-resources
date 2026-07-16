@@ -1,0 +1,39 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Mystro icon</title>
+<desc>A tapered conductor's wand tipped with a spark, casting three cascading asset blocks — the Mystro asset generation engine mark.</desc>
+
+<rect x="0" y="0" width="512" height="512" fill="#0A0A0B"/>
+<rect x="16" y="16" width="480" height="480" fill="none" stroke="#2A2723" stroke-width="1"/>
+
+<!-- corner ticks -->
+<g stroke="#E8833A" stroke-width="1.5" opacity="0.65">
+  <path d="M16 44 L16 16 L44 16"/>
+  <path d="M468 16 L496 16 L496 44"/>
+  <path d="M496 468 L496 496 L468 496"/>
+  <path d="M44 496 L16 496 L16 468"/>
+</g>
+
+<!-- baton -->
+<polygon points="146,438 176,420 348,150 330,164" fill="#C86A28" stroke="#0A0A0B" stroke-width="2"/>
+<rect x="140" y="428" width="34" height="22" fill="#3A362F"/>
+
+<!-- tip spark -->
+<g>
+  <polygon points="348,118 362,142 348,166 334,142" fill="#FFB454"/>
+  <polygon points="384,108 391,120 384,132 377,120" fill="#FFB454" opacity="0.85"/>
+  <polygon points="368,90 373,99 368,108 363,99" fill="#FFB454" opacity="0.6"/>
+</g>
+
+<!-- leader lines to generated assets -->
+<g stroke="#6B5A3F" stroke-width="1" stroke-dasharray="3 4">
+  <line x1="352" y1="150" x2="398" y2="192"/>
+  <line x1="352" y1="150" x2="420" y2="244"/>
+  <line x1="352" y1="150" x2="430" y2="292"/>
+</g>
+
+<!-- cascading asset blocks -->
+<rect x="386" y="180" width="26" height="26" fill="#E8833A"/>
+<rect x="408" y="232" width="20" height="20" fill="#C86A28"/>
+<rect x="422" y="280" width="14" height="14" fill="#8A5423"/>
+
+</svg>
